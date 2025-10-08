@@ -1,4 +1,4 @@
-# Einführung für IT Sicherheit
+# Einführung
 
 Wichtigster Grundsatz ist Defensive vor Offensive.
 Man kann nicht einfach gegenhacken, wenn man gehackt wird wird es meist erst spät gemerkt und die Gegenoffensive kommt zu spät und bringt wenig.  
