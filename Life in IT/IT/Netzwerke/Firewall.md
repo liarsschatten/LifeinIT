@@ -1,6 +1,5 @@
 # Allgemeines
 Eine Firewall ist ein Mittel zur Überprüfung von Paketen welche nach OSI-Standard versendet werden.
-
 # Paketfilter
 Die simpelste Form der Firewall sie blockiert alles und lässt nur bestimmte IPs oder bestimmte [[Ports]] durch. Sie ist wegen der der Aufbauweise leistungseffizient. Aufgrund der Funktionsweise benötigt sie einen höheren Administrativen Aufwand. Sie ist zudem unflexibel (kennt nur offen oder zu), heißt sie kann nicht dynamisch Ports öffnen und schließen.
 # Stateful Packet Inspection

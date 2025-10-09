@@ -7,7 +7,6 @@ Dazu benutze ich bevorzugt Ventoy.
 Zuerst lädt man sich die ISO Datei von Microsofts offizieller Website herunter.
 Dann erstellt man mit dem Ventoy Installer einen Ventoy Stick.
 Zuletzt muss man nur noch die ISO auf das Laufwerk ziehen welches Ventoy heißt.
-
 ## Betriebssystem Installieren
 
 Zunächst stellt man die präferierte Sprache ein.
@@ -28,7 +27,6 @@ Tragen sie den richtigen Domainnamen ein.
 Danach kommt ein _wichtiger_ Schritt nämlich das erstellen eines **lokalen Admin** Kontos.
 Dazu begibt man sich in die Nutzerverwaltung und erstellt zunächst einen Nutzer, dem gibt man dann Administrator Rechte indem man ihn in die Gruppe Administratoren hinzufügt.
 Er kann einen beliebigen Namen haben, aber für Einheitlichkeit würde ich ihn admin nennen.
-
 ## Windows Server Interface
 
 ### Manage
@@ -37,7 +35,6 @@ Hier fügt man neue Features hinzu bspw.:
 - DNS
 - Hyper V
 - Administrative Domain und User Services
-
 ### Tools
 
 Hier findet man alle Tools zu Verwaltung der einzelnen Dienste.
@@ -45,7 +42,6 @@ Einige wichtige Tools im Schnellüberblick:
 - HyperV Manager für VMs
 - Active Directory Domain Services für die Verwaltung von der Domäne
 - DNS für die Einstellung der Domainnamen und die Address Auflösung
-
 ## Hyper V Installation
 
 ### Allgemeines
@@ -53,16 +49,25 @@ Einige wichtige Tools im Schnellüberblick:
 Hyper V ist ein Manager für Virtuelle Maschinen kurz VMs
 In Hyper V kann man außerdem über einen Virtuellen Switch ein internes Netzwerk aufbauen
 Dadurch kann man alle Funktionen von Windows Server virtuell testen ohne tatsächlich ein eigenes aufbauen zu müssen
-
 ### Hyper V einstellen
 
 Zunächst startet man den 'Hyper V Manager'
-
 #### Einen virtuellen Switch einrichten
+
+Wichtig man sollte unbedingt einen neuen Virtuellen Switch erstellen der intern arbeitet.
+Das ist wichtig um das interne Netzwerk vom externen Netzwerk zu trennen für bessere Sicherheit.
+Außerdem macht man pro Subnetz einen eigenen Switch um diese klar zu trennen.
 
 Unter 'Aktionen/Actions' finden Sie den 'Virtual Switch Manager'
 Im obersten Menü wählt man 'Intern/Internal' aus
 Danach wählen Sie einen Namen wenden die Einstellungen unter 'Anwenden/Apply' an
+
+Als nächstes stellt man auf dem Hostcomputer den Virtuellen Switch ein.
+Suchen sie in Windows nach Control Panel
+Klicken sie auf **View Network Status and Tasks**
+Klicken sie dort auf **Change Adapter Settings**
+Wählen sie den Virtuellen Switch an und danach Properties
+Und stellen dann IPv4 Settings ein
 
 #### Einen virtuellen Computer erstellen
 
@@ -76,17 +81,16 @@ Hier gibt man den zuvor erstellten Switch an
 Im fünften Schritt wird eine Virtuelle Festplatte zugewiesen
 Zuletzt gibt man an welches Betriebssystem man verwenden möchte
 Man benötigt hier keinen Installations USB Stick sondern die ISO-Datei
-
 ## DC erstellen
 
 ### DC Server Vorbereiten
 
 Navigieren sie in die Einstellungen unter System/Info
-Klicken sie auf Computername ändern -> Dies ist immer der erste Schritt weil es später sehr viel schwieriger ist und meist Probleme verursacht
+Klicken sie auf **Advanced System Settings**, navigieren sie unter **Computer Name** und ändern sie den Namen auf den finalen Namen -> Dies ist immer der erste Schritt weil es später sehr viel schwieriger ist und meist Probleme verursacht
 Benennen sie den Computer so das der Name eindeutig ist und sie ihn sich merken können
 Weisen sie dem DC eine statische IPv4 Adresse zu
 Erstellen sie wenn noch nicht gemacht ein lokales Admin Konto um falls der Zugriff auf die Domäne nicht funktioniert einen Rückfall Admin zu haben
-
+Danach sollte man einen Pingtest im Netzwerk durchführen wobei man ICMP in der Firewall freischalten muss.
 ### DC Erstellen
 
 Im Servermanager auf verwalten klicken
@@ -105,7 +109,6 @@ SYSVOL enthält unter anderem die Group Policies und den Domain Folder
 Dann kommt noch das Review wo man alle Einstellungen noch einmal überprüfen kann
 Im nächsten Schritt prüft Windows die Voraussetzungen
 Solange ganz unten bestätigt wird dass alle Checks erfolgreich abgeschlossen wurden kann man die anderen Warnungen ignorieren und die Installation beginnen
-
 ### In Domain einpflegen
 
 Muss im selben Subnetz sein (Selber IP Präfix)
@@ -117,7 +120,7 @@ Rollen und Funktionen hinzufügen
 Rollen basierte Installation
 Active Directory Domain Services hinzufügen
 Auf die Fahne klicken
-Via den Link den Server zum DC promoten
+Via den Link den Server in die Domäne heben
 Domain Controller zu einer existierenden Domain hinzufügen
 Geben sie den **Root Domain Name** an
 Danach muss man sich als Domain Administrator anmelden
@@ -144,7 +147,6 @@ Man sollte nie einen DC einzeln laufen lassen wenn man einen replizierten DC hat
 Bevor man einen Domain Computer einschaltet muss ein DC verfügbar sein
 Snapshots sollten immer gleichzeitig erstellt werden
 Falls ein DC zu einem früheren Zeitpunkt zurückgesetzt wird muss das bei allen DCs des Netzwerks getan werden
-
 ## DNS Erstellen
 
 Im Server Manager auf Tools und dann DNS klicken
@@ -176,3 +178,5 @@ Tragen sie den Präfix der Domain ein
 Geben sie einen Dateinamen ein z.B. ipv6._domain_.dns
 Lassen sie sichere und unsichere Dynamische Updates zu
 Klicken sie auf fertigstellen um den Assistenten zu beenden
+## DHCP einrichten
+

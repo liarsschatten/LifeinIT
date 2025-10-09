@@ -7,6 +7,7 @@
 ## Netzwerke
 - [[Einführung IT Sicherheit]]
 - [[Firewall]]
+- [[OSI Modell]]
 - [[Ports]]
 ## Software Entwicklung
 - [[Git]]

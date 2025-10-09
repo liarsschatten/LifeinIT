@@ -20,7 +20,6 @@ Fügt alle Dateien der _Staging Area_ hinzu.
 git add .
 Fügt eine ausgewählte Datei der _Staging Area_ hinzu
 git add "File Name"
-
 ### Dateien ignorieren
 **.gitignore**
 Das ist eine Datei welche die Namen von Dateien und Ordner enthält die beim nächsten Commit ausgelassen werden.
