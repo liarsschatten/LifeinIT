@@ -9,7 +9,7 @@ Dabei wird grundsätzlich alles geblockt und nur durchgelassen was in der
 # Application Level Gateway
 Öffnet alle Pakete bis Schicht sieben heißt der ALG arbeitet auf allen Schichten des OSI-Modells.
 Er schaltet sich wie ein **Proxy** zwischen das **interne Netzwerk** und das **Internet** dadurch _verschleiert_ der ALG die IP des Clients und filtert die durchkommenden Pakete. Das bedeutet auch dass man den Client nicht direkt erreichen kann. 
-Der ALG kann nur einen Dienst betreuen heißt für jeden Server benötigt man eine eigene ALG.    
+Der ALG kann nur einen Dienst betreuen heißt für jeden Dienst benötigt man eine eigene ALG.    
 Zusätzlich zum filtern nach IP und Port wie beim Paketfilter kann die ALG auch auf Befehle sowie Inhalte filtern das bedeutet dass sie z.B. alle PUT Befehle blockieren kann.  
 ## BSI Empfehlung
 Das BSI empfiehlt vor und nach dem Application Level Gateway einen Paketfilter zu einzusetzen. 

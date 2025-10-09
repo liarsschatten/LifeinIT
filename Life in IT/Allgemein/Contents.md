@@ -7,13 +7,16 @@
 ## Netzwerke
 - [[Einführung IT Sicherheit]]
 - [[Firewall]]
+- [[NAT]]
 - [[OSI Modell]]
 - [[Ports]]
 ## Software Entwicklung
 - [[Git]]
 ## Windows 
-- [[Batch Dateien]]
+### CMD und Powershell
 - [[CMD Befehle]]
+### Batch Dateien
+- [[Batch Dateien]]
 ## Windows Server
 - [[Windows Server Anleitung]]
 - [[Windows Server Erklärung]]
