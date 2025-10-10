@@ -7,7 +7,7 @@
 ## Netzwerke
 - [[Einführung IT Sicherheit]]
 - [[Firewall]]
-- [[NAT]]
+- [[IPv4]]
 - [[OSI Modell]]
 - [[Ports]]
 ## Software Entwicklung
@@ -21,3 +21,4 @@
 - [[Windows Server Anleitung]]
 - [[Windows Server Erklärung]]
 # Soziales
+## Arbeit
