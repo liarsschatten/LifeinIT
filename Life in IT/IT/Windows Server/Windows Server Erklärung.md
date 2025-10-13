@@ -1,8 +1,9 @@
 # Domain Controller
 
 Ein Domain Controller kurz 'DC' sorgt dafür dass man sich nahtlos mit jedem in die Domäne eingebundenen Rechner verbinden kann
-Er stellt in der Domäne die Anmeldedaten und die Berechtigungen für jeden Nutzer Domänen weit ein
+Er stellt in der Domäne die Anmelde Daten und die Berechtigungen für jeden Nutzer Domänen weit ein
 
+---
 ## Einführung
 
 Ausfallsicherheit ist ein wichtiges Thema in der IT Infrastruktur
@@ -14,9 +15,11 @@ Die Gesamtstruktur bezeichnet einen Forest also die Gesamtheit aller Strukturen
 Strukturen bezeichnen eine Baumstruktur aus z.B. einer Second-Level-Domain und mehreren Unterdomains (firma.intern + abteilung.firma.intern)
 Eine Domäne bezeichnet einen abgekapselten Bereich mit einheitlicher Berechtigungsverwaltung
 Mehrere Domänen lohnen sich nur bei großen Firmen mit vielen Standorten wo Millionen von Objekten verwaltet werden
-## Domainname
-Der Domainname muss mindestens eine Second-Level-Domain sein (z.B. firma.local)
-Hierbei handelt es sich um einen vollqualifizierten Domainnamen
+## Domain Name
+Der Domain Name muss mindestens eine Second-Level-Domain sein (z.B. firma.local)
+Hierbei handelt es sich um einen vollqualifizierten Domain namen
+
+---
 # DNS
 DNS steht für **Domain Name System** und ist für die Namensauflösung zuständig
 Übersetzt Namen zu IP-Adressen und umgekehrt

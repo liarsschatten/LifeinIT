@@ -9,7 +9,7 @@
 - [[Firewall]]
 - [[IPv4]]
 - [[OSI Modell]]
-- [[Ports]]
+- [[Transport Layer]]
 ## Software Entwicklung
 - [[Git]]
 ## Windows 
@@ -22,3 +22,5 @@
 - [[Windows Server Erklärung]]
 # Soziales
 ## Arbeit
+[[Arbeitsvertrag]]
+[[Bewerbungen]]

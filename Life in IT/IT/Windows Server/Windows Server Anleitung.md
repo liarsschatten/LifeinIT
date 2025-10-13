@@ -42,6 +42,9 @@ Einige wichtige Tools im Schnellüberblick:
 - HyperV Manager für VMs
 - Active Directory Domain Services für die Verwaltung von der Domäne
 - DNS für die Einstellung der Domainnamen und die Address Auflösung
+
+---
+
 ## Hyper V Installation
 
 ### Allgemeines
@@ -81,6 +84,8 @@ Hier gibt man den zuvor erstellten Switch an
 Im fünften Schritt wird eine Virtuelle Festplatte zugewiesen
 Zuletzt gibt man an welches Betriebssystem man verwenden möchte
 Man benötigt hier keinen Installations USB Stick sondern die ISO-Datei
+
+---
 ## DC erstellen
 
 ### DC Server Vorbereiten
@@ -147,6 +152,8 @@ Man sollte nie einen DC einzeln laufen lassen wenn man einen replizierten DC hat
 Bevor man einen Domain Computer einschaltet muss ein DC verfügbar sein
 Snapshots sollten immer gleichzeitig erstellt werden
 Falls ein DC zu einem früheren Zeitpunkt zurückgesetzt wird muss das bei allen DCs des Netzwerks getan werden
+
+---
 ## DNS Erstellen
 
 Im Server Manager auf Tools und dann DNS klicken
@@ -178,5 +185,7 @@ Tragen sie den Präfix der Domain ein
 Geben sie einen Dateinamen ein z.B. ipv6._domain_.dns
 Lassen sie sichere und unsichere Dynamische Updates zu
 Klicken sie auf fertigstellen um den Assistenten zu beenden
+
+---
 ## DHCP einrichten
 
