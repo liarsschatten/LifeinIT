@@ -51,7 +51,7 @@ Einige wichtige Tools im Schnellüberblick:
 
 Hyper V ist ein Manager für Virtuelle Maschinen kurz VMs
 In Hyper V kann man außerdem über einen Virtuellen Switch ein internes Netzwerk aufbauen
-Dadurch kann man alle Funktionen von Windows Server virtuell testen ohne tatsächlich ein eigenes aufbauen zu müssen
+Dadurch kann man alle Funktionen von Windows Server virtuell testen ohne tatsächlich ein eigenes Netzwerk aufbauen zu müssen
 ### Hyper V einstellen
 
 Zunächst startet man den 'Hyper V Manager'
@@ -90,53 +90,68 @@ Man benötigt hier keinen Installations USB Stick sondern die ISO-Datei
 
 ### DC Server Vorbereiten
 
-Navigieren sie in die Einstellungen unter System/Info
-Klicken sie auf **Advanced System Settings**, navigieren sie unter **Computer Name** und ändern sie den Namen auf den finalen Namen -> Dies ist immer der erste Schritt weil es später sehr viel schwieriger ist und meist Probleme verursacht
-Benennen sie den Computer so das der Name eindeutig ist und sie ihn sich merken können
+Navigieren sie in die Einstellungen unter System/Info, klicken sie auf **Advanced System Settings**, navigieren sie unter **Computer Name** und ändern sie den Namen auf den finalen Namen -> 
+Dies ist immer der erste Schritt weil es später sehr viel schwieriger ist und meist Probleme verursacht. Benennen sie den Computer so das der Name eindeutig ist und sie ihn sich merken können
+
 Weisen sie dem DC eine statische IPv4 Adresse zu
+
 Erstellen sie wenn noch nicht gemacht ein lokales Admin Konto um falls der Zugriff auf die Domäne nicht funktioniert einen Rückfall Admin zu haben
+
 Danach sollte man einen Pingtest im Netzwerk durchführen wobei man ICMP in der Firewall freischalten muss.
 ### DC Erstellen
 
 Im Servermanager auf verwalten klicken
+
 Rollen und Funktionen hinzufügen
+
 Rollen basierte Installation
+
 Active Directory Domain Services hinzufügen
+
+---
+
 Auf die Fahne klicken
 Via den Link den Server zum DC promoten
 Add new Forest
+
 **Root Domain Name** festlegen dieser muss mindestens eine **Second Level Domain** sein
-Zum Beispiel firma.local hier ist firma der Hostname
-Dann muss das Directory Service Restore Mode Passwort festgelegt werden
-Daraufhin muss man den NetBIOS Domain Name festlegen wobei standardmäßig der Hostname in Capslock angegeben wird
-Hiernach kann man bei Bedarf die Pfade zur AD DS-Datenbank, den Protokoll Dateien und zum SYSVOL Folder anpassen
+Zum Beispiel firma.local hier ist firma der Hostname.#
+
+Dann muss das Directory Service Restore Mode Passwort festgelegt werden.
+Daraufhin muss man den NetBIOS Domain Name festlegen wobei standardmäßig der Hostname in Capslock angegeben wird.
+
+Hiernach kann man bei Bedarf die Pfade zur AD DS-Datenbank, den Protokoll Dateien und zum SYSVOL Folder anpassen. **Das sollte man im Normalfall nicht machen.**
 SYSVOL enthält unter anderem die Group Policies und den Domain Folder
+
 Dann kommt noch das Review wo man alle Einstellungen noch einmal überprüfen kann
 Im nächsten Schritt prüft Windows die Voraussetzungen
 Solange ganz unten bestätigt wird dass alle Checks erfolgreich abgeschlossen wurden kann man die anderen Warnungen ignorieren und die Installation beginnen
 ### In Domain einpflegen
 
-Muss im selben Subnetz sein (Selber IP Präfix)
-Unter System Settings/About/Advanced Settings/Computer Name/Change
-Sobald das geschehen ist können sie sich mit dem Administrator nur noch in der Domäne anmelden
-DC hinzufügen
-Im Servermanager auf verwalten klicken
-Rollen und Funktionen hinzufügen
-Rollen basierte Installation
-Active Directory Domain Services hinzufügen
-Auf die Fahne klicken
-Via den Link den Server in die Domäne heben
-Domain Controller zu einer existierenden Domain hinzufügen
-Geben sie den **Root Domain Name** an
-Danach muss man sich als Domain Administrator anmelden
-Aktivieren sie DNS-Server und Globaler Katalog
-Ignoriere die Warnung bei DNS Options
-Replicate from DC 1
-Hiernach kann man bei Bedarf die Pfade zur AD DS-Datenbank, den Protokoll Dateien und zum SYSVOL Folder anpassen
-SYSVOL enthält unter anderem die Group Policies und den Domain Folder
-Dann kommt noch das Review wo man alle Einstellungen noch einmal überprüfen kann
-Im nächsten Schritt prüft Windows die Voraussetzungen
-Solange ganz unten bestätigt wird dass alle Checks erfolgreich abgeschlossen wurden kann man die anderen Warnungen ignorieren und die Installation beginnen
+Stellen Sie sicher, dass sich der PC im selben Subnetz befindet, also den gleichen IP-Präfix verwendet wie die restlichen Geräte in der Domäne.
+
+Öffnen Sie die **System Settings** unter _About > Advanced Settings > Computer Name > Change_.  
+Sobald Sie den Namen geändert haben und der PC zur Domäne hinzugefügt wurde, kann sich der Administrator nur noch über die Domäne anmelden.
+
+Einen neuen Domain Controller hinzufügen. Öffnen Sie den **Server-Manager** und klicken Sie auf **Verwalten > Rollen und Funktionen hinzufügen**. Wählen Sie die Option **"Rollenbasierte oder featurebasierte Installation"** und fahren Sie fort. Wählen Sie die Rolle **Active Directory Domain Services** aus und installieren Sie diese.
+
+Klicken Sie auf die Fahne und folgen Sie dem Link, um den Server in die Domäne aufzunehmen.
+
+Wählen Sie die Option **"Domain Controller zu einer bestehenden Domäne hinzufügen"** aus.  
+Geben Sie den vollständigen **Root Domain Name** (z. B. `firma.local`) ein.
+
+Melden Sie sich anschließend über das Domain-Administrator Konto an.
+
+Aktivieren Sie **DNS-Server** und **Globaler Katalog** (Global Catalog).  
+Die Warnung unter **DNS-Options** kann in der Regel ignoriert werden.
+
+Wählen Sie unter _Replication_ die Option **"Replicate from: DC1"**, um die Replikation von einem bestehenden Domain Controller einzurichten.
+
+Bei Bedarf können Sie jetzt die Pfade für die AD DS-Datenbank, die Protokolldateien und den **SYSVOL**-Ordner anpassen. **Das sollte man nur tun wenn man sie beim DC 1 verändert hat**
+
+Im nächsten Schritt folgt eine **Review-Seite**, auf der alle gewählten Optionen zur Kontrolle aufgelistet werden.
+Windows prüft nun automatisch die Voraussetzungen für die Installation.  
+Solange am unteren Rand des Fensters bestätigt wird, dass **alle Voraussetzungen erfolgreich erfüllt** wurden, können verbleibende Warnungen ignoriert und die Installation gestartet werden.
 
 #### Integrierte DNS Einträge
 
@@ -186,6 +201,41 @@ Geben sie einen Dateinamen ein z.B. ipv6._domain_.dns
 Lassen sie sichere und unsichere Dynamische Updates zu
 Klicken sie auf fertigstellen um den Assistenten zu beenden
 
+### DNS aktivieren
+
+Um den DNS auf einem Computer zu aktivieren müssen sie in CMD den folgenden Befehl eingeben.
+```
+ipconfig -registerdns
+```
+Dieser Befehl übergibt die DNS Einträge dem DNS Server
+
+Das sollte man bei allen Servern im Netzwerk machen
+
+### Mit fernem DNS Server verbinden
+
+Im DNS Manager auf `Connect to DNS-Server klicken`. 
+Geben sie den Servernamen an.
+
 ---
 ## DHCP einrichten
+
+### Erstellung
+
+Im Servermanager auf verwalten klicken
+
+Rollen und Funktionen hinzufügen
+
+Rollen basierte Installation
+
+DHCP hinzufügen
+
+Das Post Deployment geht über die Fahne dabei muss man sich lediglich mit dem Domain Administrator anmelden.
+
+### Einrichtung Scope
+
+New Scope einrichten
+Name angeben
+Geben sie die Dynamische IP Reichweite an.
+
+### Einrichtung Failover
 

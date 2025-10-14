@@ -43,13 +43,21 @@ In der Forward Lookup Zone gibt es eine Datei mit dem vollständigen Hostnamen d
 In der Reverse Lookup Zone gibt es das Gegenstück dazu, der Dateiname ist wie folgt aufgebaut umgedrehter Netzteil der IP Adresse und .in-addr.arpa.dns
 Die Datei **cache.dns** enthält die Stammserver des Internets
 Sie liegt unter **%WINDIR%\System32\dns\cache.dns**
-Einträge in der Zonen Datenbank
+Einträge in der Zonen Datenbank:
+
 **Host, A**
 Ressourceneintrag für IPv4 Adressen, kann dynamisch aktualisiert werden
+
 **Host, AAAA**
 Ressourceneintrag für IPv6 Adressen, kann dynamisch aktualisiert werden
+
 **Zeiger, PTR**
 Ressourceneintrag für die Namensauflösung im Reverse Lookup
 Es werden der Hostanteil einer IP-Adresse und der Hostname
+
 **Dienst, SRV**
 Damit werden Netzwerkdienste vermerkt wie bspw. ein Domaincontroller
+### DNS Zonenübertragung
+Der SOA Start of Authority gibt den primären DNS Server an.
+
+Die Zonenübertragung übergibt die DNS Einträge an alle DNS Server in der Domäne.
