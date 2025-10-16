@@ -61,3 +61,4 @@ Damit werden Netzwerkdienste vermerkt wie bspw. ein Domaincontroller
 Der SOA Start of Authority gibt den primären DNS Server an.
 
 Die Zonenübertragung übergibt die DNS Einträge an alle DNS Server in der Domäne.
+

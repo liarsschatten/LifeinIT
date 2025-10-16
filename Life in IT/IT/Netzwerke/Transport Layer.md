@@ -1,4 +1,3 @@
-
 # Allgemeines
 Ports sind eine Programmadresse welche auf Ebene 4 des OSI-Modells eingesetzt wird.
 Sie sagen aus an welches Programm das Paket gehen soll.  
