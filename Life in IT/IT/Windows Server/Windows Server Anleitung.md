@@ -1,13 +1,16 @@
-# Windows Server Tutorial
 
-## Installations Medium erstellen
+# Installationsmedium erstellen
 
-Man startet mit dem erstellen eines Live Mediums (USB Stick).
-Dazu benutze ich bevorzugt Ventoy.
+Man startet mit dem Erstellen eines Live Mediums (USB Stick).
+(Empfehlung Ventoy)
 Zuerst lädt man sich die ISO Datei von Microsofts offizieller Website herunter.
 Dann erstellt man mit dem Ventoy Installer einen Ventoy Stick.
 Zuletzt muss man nur noch die ISO auf das Laufwerk ziehen welches Ventoy heißt.
-## Betriebssystem Installieren
+
+1. 
+	1. dwa
+
+# Betriebssystem Installieren
 
 Zunächst stellt man die präferierte Sprache ein.
 Danach klickt man auf Installieren.
@@ -19,6 +22,7 @@ Diese lassen sich später nur noch schwer ändern.
 Nach diesem Schritt muss der Rechner neu gestartet werden.
 Daraufhin muss man zunächst das Kennwort für das Administrator Konto.
 Es muss drei der folgenden Kategorien enthalten.
+
 Klein- u. Großbuchstaben, Zahlen und Sonderzeichen.
 Navigieren sie in die Einstellungen unter System/Info.
 Klicken sie auf **Computername ändern** -> Dies ist immer der erste Schritt weil es später sehr viel schwieriger ist und meist Probleme verursacht.
@@ -27,7 +31,7 @@ Tragen sie den richtigen Domainnamen ein.
 Danach kommt ein _wichtiger_ Schritt nämlich das erstellen eines **lokalen Admin** Kontos.
 Dazu begibt man sich in die Nutzerverwaltung und erstellt zunächst einen Nutzer, dem gibt man dann Administrator Rechte indem man ihn in die Gruppe Administratoren hinzufügt.
 Er kann einen beliebigen Namen haben, aber für Einheitlichkeit würde ich ihn admin nennen.
-## Windows Server Interface
+# Windows Server Interface
 
 ### Manage
 
@@ -55,7 +59,7 @@ Dadurch kann man alle Funktionen von Windows Server virtuell testen ohne tatsäc
 ### Hyper V einstellen
 
 Zunächst startet man den 'Hyper V Manager'
-#### Einen virtuellen Switch einrichten
+#### Einrichten virtueller Switch
 
 Wichtig man sollte unbedingt einen neuen Virtuellen Switch erstellen der intern arbeitet.
 Das ist wichtig um das interne Netzwerk vom externen Netzwerk zu trennen für bessere Sicherheit.
@@ -72,7 +76,7 @@ Klicken sie dort auf **Change Adapter Settings**
 Wählen sie den Virtuellen Switch an und danach Properties
 Und stellen dann IPv4 Settings ein
 
-#### Einen virtuellen Computer erstellen
+#### Erstellen virtueller Computer
 
 Als nächstes klickt man unter 'Aktionen/Actions' auf 'Neu/New' um den Assistenten für virtuelle Computer zu starten
 Als erstes müssen wir der VM einen Namen vergeben und den Speicherort angeben
@@ -91,11 +95,11 @@ Man benötigt hier keinen Installations USB Stick sondern die ISO-Datei
 ### DC Server Vorbereiten
 
 Navigieren sie in die Einstellungen unter System/Info, klicken sie auf **Advanced System Settings**, navigieren sie unter **Computer Name** und ändern sie den Namen auf den finalen Namen -> 
-Dies ist immer der erste Schritt weil es später sehr viel schwieriger ist und meist Probleme verursacht. Benennen sie den Computer so das der Name eindeutig ist und sie ihn sich merken können
+Dies ist immer der erste Schritt weil es später sehr viel schwieriger ist und meist Probleme verursacht. Benennen sie den Computer so das der Name eindeutig ist und sie ihn sich merken können.
 
-Weisen sie dem DC eine statische IPv4 Adresse zu
+Weisen sie dem DC eine statische IPv4 Adresse zu.
 
-Erstellen sie wenn noch nicht gemacht ein lokales Admin Konto um falls der Zugriff auf die Domäne nicht funktioniert einen Rückfall Admin zu haben
+Erstellen sie wenn noch nicht gemacht ein lokales Admin-Konto um einen Zugriff auf den Computer zu gewährleisten, selbst wenn die Domäne nicht erreichbar ist. Dieses Konto agiert somit als Fallback-System.
 
 Danach sollte man einen Pingtest im Netzwerk durchführen wobei man ICMP in der Firewall freischalten muss.
 ### DC Erstellen
@@ -115,17 +119,18 @@ Via den Link den Server zum DC promoten
 Add new Forest
 
 **Root Domain Name** festlegen dieser muss mindestens eine **Second Level Domain** sein
-Zum Beispiel firma.local hier ist firma der Hostname.#
+Zum Beispiel firma.local hier ist "firma" der Hostname.
+
 
 Dann muss das Directory Service Restore Mode Passwort festgelegt werden.
 Daraufhin muss man den NetBIOS Domain Name festlegen wobei standardmäßig der Hostname in Capslock angegeben wird.
 
-Hiernach kann man bei Bedarf die Pfade zur AD DS-Datenbank, den Protokoll Dateien und zum SYSVOL Folder anpassen. **Das sollte man im Normalfall nicht machen.**
-SYSVOL enthält unter anderem die Group Policies und den Domain Folder
+Hiernach kann man bei Bedarf die Pfade zur AD DS-Datenbank, den Protokoll Dateien und zum SYSVOL Folder anpassen. **Das sollte man im Normalfall nicht machen und eine Anpassung ist auch i.d.R. nicht nötig.**
+SYSVOL enthält unter anderem die Group Policies und den Domain Folder.
 
 Dann kommt noch das Review wo man alle Einstellungen noch einmal überprüfen kann
-Im nächsten Schritt prüft Windows die Voraussetzungen
-Solange ganz unten bestätigt wird dass alle Checks erfolgreich abgeschlossen wurden kann man die anderen Warnungen ignorieren und die Installation beginnen
+Im nächsten Schritt prüft Windows die Voraussetzungen.
+Solange ganz unten bestätigt wird dass alle Checks erfolgreich abgeschlossen wurden kann man die anderen Warnungen ignorieren und die Installation beginnen.
 ### In Domain einpflegen
 
 Stellen Sie sicher, dass sich der PC im selben Subnetz befindet, also den gleichen IP-Präfix verwendet wie die restlichen Geräte in der Domäne.
@@ -135,7 +140,7 @@ Sobald Sie den Namen geändert haben und der PC zur Domäne hinzugefügt wurde, 
 
 Einen neuen Domain Controller hinzufügen. Öffnen Sie den **Server-Manager** und klicken Sie auf **Verwalten > Rollen und Funktionen hinzufügen**. Wählen Sie die Option **"Rollenbasierte oder featurebasierte Installation"** und fahren Sie fort. Wählen Sie die Rolle **Active Directory Domain Services** aus und installieren Sie diese.
 
-Klicken Sie auf die Fahne und folgen Sie dem Link, um den Server in die Domäne aufzunehmen.
+Klicken Sie oben rechts im Servermanager auf die Fahne und folgen Sie dem Link, um den Server in die Domäne aufzunehmen.
 
 Wählen Sie die Option **"Domain Controller zu einer bestehenden Domäne hinzufügen"** aus.  
 Geben Sie den vollständigen **Root Domain Name** (z. B. `firma.local`) ein.
@@ -238,4 +243,3 @@ Name angeben
 Geben sie die Dynamische IP Reichweite an.
 
 ### Einrichtung Failover
-
