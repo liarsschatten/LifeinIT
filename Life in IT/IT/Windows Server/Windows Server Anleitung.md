@@ -1,41 +1,41 @@
+# Installation Windows-Server
+## Installationsmedium erstellen
 
-# Installationsmedium erstellen
+1. Erstellen eines Live Mediums (USB Stick) - Empfehlung 'Ventoy'
+	1. ISO-Datei von Microsoft-Website beziehen.
+	2. Mit Ventoy-Installer einen Ventoy Stick erstellen.
+	3. Windows-Server-ISO auf den USB-Stick, jetzt mit dem Namen 'Ventoy', übertragen.
 
-Man startet mit dem Erstellen eines Live Mediums (USB Stick).
-(Empfehlung Ventoy)
-Zuerst lädt man sich die ISO Datei von Microsofts offizieller Website herunter.
-Dann erstellt man mit dem Ventoy Installer einen Ventoy Stick.
-Zuletzt muss man nur noch die ISO auf das Laufwerk ziehen welches Ventoy heißt.
+---------------------------------------------------
+## Betriebssystem Installieren
 
-1. 
-	1. dwa
+1. Wählen der präferierten Sprache
+2. Wähle die Version **Datacenter (mit grafischer Benutzeroberfläche)**
+3. Akzeptieren Sie die Lizenzbedingungen und bestätigen Sie.
+4. Klicken Sie auf **Benutzerdefiniert**.
+5. Einrichten der Partitionen und Auswählen von der gewünschten Windows-Partition
+6. Nach diesem Schritt muss der Rechner neu gestartet werden
+7. Einrichten des Kennwortes für das Administrator-Konto
+8. Es muss drei der folgenden Kategorien enthalten:
+	- Klein- u. Großbuchstaben, Zahlen und Sonderzeichen.
 
-# Betriebssystem Installieren
+---------------------------------------------------
 
-Zunächst stellt man die präferierte Sprache ein.
-Danach klickt man auf Installieren.
-Wichtig ist das man hier **Datacenter (mit grafischer Benutzeroberfläche)** wählt.
-Akzeptieren der Lizenzbedingungen.
-Danach wählt man **Benutzerdefiniert** aus.
-Hier stellt man die Partitionen von Windows ein.
-Diese lassen sich später nur noch schwer ändern.
-Nach diesem Schritt muss der Rechner neu gestartet werden.
-Daraufhin muss man zunächst das Kennwort für das Administrator Konto.
-Es muss drei der folgenden Kategorien enthalten.
+## Ersteinrichtung
 
-Klein- u. Großbuchstaben, Zahlen und Sonderzeichen.
-Navigieren sie in die Einstellungen unter System/Info.
-Klicken sie auf **Computername ändern** -> Dies ist immer der erste Schritt weil es später sehr viel schwieriger ist und meist Probleme verursacht.
-Benennen sie den Computer so das der Name eindeutig ist und sie ihn sich merken können.
-Tragen sie den richtigen Domainnamen ein.
-Danach kommt ein _wichtiger_ Schritt nämlich das erstellen eines **lokalen Admin** Kontos.
-Dazu begibt man sich in die Nutzerverwaltung und erstellt zunächst einen Nutzer, dem gibt man dann Administrator Rechte indem man ihn in die Gruppe Administratoren hinzufügt.
-Er kann einen beliebigen Namen haben, aber für Einheitlichkeit würde ich ihn admin nennen.
-# Windows Server Interface
+1. Navigieren sie in die Einstellungen unter System/Info
+2. Klicken sie auf **Computername ändern** -> Dies ist immer der erste Schritt weil es später sehr viel schwieriger ist und meist Probleme verursacht
+3. Benennen sie den Computer mit einem möglichst eindeutigen Namen und melden Sie sich in der Domäne an.
+4. Danach kommt ein _wichtiger_ Schritt nämlich das erstellen eines **lokalen Admin** Kontos.
+5. Dazu begibt man sich in die Nutzerverwaltung und erstellt zunächst einen Nutzer, dem gibt man dann Administrator Rechte indem man ihn in die Gruppe Administratoren hinzufügt.
+6. Er kann einen beliebigen Namen haben, aber für Einheitlichkeit würde ich ihn admin nennen.
+
+---------------------------------------------------
+## Windows Server Interface
 
 ### Manage
 
-Hier fügt man neue Features hinzu bspw.:
+Hier fügt man neue Features hinzu. Beispielsweise:
 - DNS
 - Hyper V
 - Administrative Domain und User Services
@@ -45,20 +45,20 @@ Hier findet man alle Tools zu Verwaltung der einzelnen Dienste.
 Einige wichtige Tools im Schnellüberblick:
 - HyperV Manager für VMs
 - Active Directory Domain Services für die Verwaltung von der Domäne
-- DNS für die Einstellung der Domainnamen und die Address Auflösung
+- DNS für das Einstellen von Domainnamen und die Auflösung der IP-Adressen
 
 ---
 
-## Hyper V Installation
+# Hyper V Installation & Einrichtung
 
 ### Allgemeines
 
-Hyper V ist ein Manager für Virtuelle Maschinen kurz VMs
-In Hyper V kann man außerdem über einen Virtuellen Switch ein internes Netzwerk aufbauen
-Dadurch kann man alle Funktionen von Windows Server virtuell testen ohne tatsächlich ein eigenes Netzwerk aufbauen zu müssen
-### Hyper V einstellen
+Hyper V ist ein Manager für Virtuelle Maschinen kurz VMs. In Hyper V kann man außerdem über einen Virtuellen Switch ein internes Netzwerk aufbauen, wodurch man alle Funktionen von Windows Server virtuell testen kann, ohne tatsächlich ein eigenes Netzwerk aufbauen zu müssen.
+### 
 
-Zunächst startet man den 'Hyper V Manager'
+- Über das oben beschriebene Feature-Menü unter 'Manage', klicken Sie auf 'Add Roles and Features' und fügen Hyper-V hinzu
+- Nach der Installation, starten Sie 'Hyper-V Manager'
+
 #### Einrichten virtueller Switch
 
 Wichtig man sollte unbedingt einen neuen Virtuellen Switch erstellen der intern arbeitet.
