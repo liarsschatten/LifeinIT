@@ -59,7 +59,7 @@ Für jede VM können separat Snapshots, sogenannte **'Checkpoints'** erstellt we
 ## Hyper-V Installation
 
 - Über das oben beschriebene Feature-Menü unter 'Manage', klicken Sie auf 'Add Roles and Features' und fügen Hyper-V hinzu
-- Nach der Installation, starten Sie 'Hyper-V Manager'
+- Nach der Installation, starten Sie den 'Hyper-V Manager'
 
 ## Einrichten virtueller Switch
 
@@ -77,9 +77,9 @@ Suchen sie in Windows nach Control Panel
 Klicken sie auf **View Network Status and Tasks**
 Klicken sie dort auf **Change Adapter Settings**
 Wählen sie den Virtuellen Switch an und danach Properties
-Und stellen dann IPv4 Settings ein (Was genau??)
+Und stellen dann IPv4 Settings ein
 
-#### Erstellen virtueller Computer
+## Erstellen virtueller Computer
 
 Im ersten Schritt, klicken Sie im Hauptmenü von Hyper-V unter der Kategorie 'Aktionen/Actions' auf 'Neu/New' um den Assistenten für virtuelle Computer zu starten.
 
@@ -97,8 +97,7 @@ Im ersten Schritt, klicken Sie im Hauptmenü von Hyper-V unter der Kategorie 'Ak
 
 ### DC Server Vorbereiten
 
-In den Windows-Einstellungen unter System/Info, klicken sie auf **Advanced System Settings**, navigieren sie zu **'Computer Name'** und ändern sie den Namen des Computers auf den gewünschten (finalen) Namen -> 
-Dies ist immer der erste Schritt weil es später sehr viel schwieriger ist und meist Probleme verursacht. Benennen sie den Computer so das der Name eindeutig ist und sie ihn sich merken können.
+In den Windows-Einstellungen unter System/Info, klicken sie auf **Advanced System Settings**, navigieren sie zu **'Computer Name'** und ändern sie den Namen des Computers auf den gewünschten (finalen) Namen -> Dies ist immer der erste Schritt weil es später sehr viel schwieriger ist und meist Probleme verursacht. Benennen sie den Computer so das der Name eindeutig ist und sie ihn sich merken können.
 
 Weisen sie dem DC eine statische IPv4 Adresse zu.
 
