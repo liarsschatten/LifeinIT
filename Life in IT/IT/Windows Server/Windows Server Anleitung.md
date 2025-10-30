@@ -49,59 +49,62 @@ Einige wichtige Tools im Schnellüberblick:
 
 ---
 
-# Hyper V Installation & Einrichtung
+# Hyper-V Installation & Einrichtung
 
-### Allgemeines
+## Allgemeines
 
-Hyper V ist ein Manager für Virtuelle Maschinen kurz VMs. In Hyper V kann man außerdem über einen Virtuellen Switch ein internes Netzwerk aufbauen, wodurch man alle Funktionen von Windows Server virtuell testen kann, ohne tatsächlich ein eigenes Netzwerk aufbauen zu müssen.
-### 
+Hyper V ist ein Manager für Virtuelle Maschinen kurz VMs. Es können virtuelle Switches konfiguriert werden, um ein internes Netzwerk aufzubauen, wodurch alle Funktionen von Windows Server virtuell getestet werden kann, ohne tatsächlich ein eigenes Netzwerk aufbauen zu müssen.
+
+Für jede VM können separat Snapshots, sogenannte **'Checkpoints'** erstellt werden, um einen gewissen Stand einer VM zu sichern.
+## Hyper-V Installation
 
 - Über das oben beschriebene Feature-Menü unter 'Manage', klicken Sie auf 'Add Roles and Features' und fügen Hyper-V hinzu
 - Nach der Installation, starten Sie 'Hyper-V Manager'
 
-#### Einrichten virtueller Switch
+## Einrichten virtueller Switch
 
-Wichtig man sollte unbedingt einen neuen Virtuellen Switch erstellen der intern arbeitet.
-Das ist wichtig um das interne Netzwerk vom externen Netzwerk zu trennen für bessere Sicherheit.
-Außerdem macht man pro Subnetz einen eigenen Switch um diese klar zu trennen.
+### Allgemein
+
+Sofern keine Verbindung aus dem Netzwerk heraus nötig/erwünscht ist, sollte unbedingt ein virtueller Switch erstellt werden, der intern arbeitet. Dies ist wichtig um den Zugang zum externen Netzwerk zu verhindern, was den Schutz des Netzwerkes dramatisch erhöht.
+Außerdem sollte jedes Subnetz an einen eigenen Switch angeschlossen sein, um sie klar zu trennen.
 
 Unter 'Aktionen/Actions' finden Sie den 'Virtual Switch Manager'
-Im obersten Menü wählt man 'Intern/Internal' aus
+Im obersten Menü wählen Sie die gewünschte Konnektivität aus. z.B. 'Intern/Internal'.
 Danach wählen Sie einen Namen wenden die Einstellungen unter 'Anwenden/Apply' an
 
-Als nächstes stellt man auf dem Hostcomputer den Virtuellen Switch ein.
+Als nächstes stellt man auf dem Hostcomputer den Virtuellen Switch ein. 
 Suchen sie in Windows nach Control Panel
 Klicken sie auf **View Network Status and Tasks**
 Klicken sie dort auf **Change Adapter Settings**
 Wählen sie den Virtuellen Switch an und danach Properties
-Und stellen dann IPv4 Settings ein
+Und stellen dann IPv4 Settings ein (Was genau??)
 
 #### Erstellen virtueller Computer
 
-Als nächstes klickt man unter 'Aktionen/Actions' auf 'Neu/New' um den Assistenten für virtuelle Computer zu starten
-Als erstes müssen wir der VM einen Namen vergeben und den Speicherort angeben
-Danach kann man die Generation auswählen wobei Generation 2 die neuere und bessere Version ist (64bit statt 32bit)
-Dann muss man RAM zuweisen, man kann auch dynamisch RAM zuweisen lassen.
-Das heißt das genau soviel RAM zur Verfügung gestellt wird wie benötigt wird
-Als nächstes gibt man an zu welchem Netzwerk die Maschine gehören soll
-Hier gibt man den zuvor erstellten Switch an
-Im fünften Schritt wird eine Virtuelle Festplatte zugewiesen
-Zuletzt gibt man an welches Betriebssystem man verwenden möchte
-Man benötigt hier keinen Installations USB Stick sondern die ISO-Datei
+Im ersten Schritt, klicken Sie im Hauptmenü von Hyper-V unter der Kategorie 'Aktionen/Actions' auf 'Neu/New' um den Assistenten für virtuelle Computer zu starten.
+
+- Als erstes müssen wir der VM einen Namen vergeben und den Speicherort angeben
+- Danach kann man die Generation auswählen wobei Generation 2 die neuere und bessere Version ist (64bit statt 32bit)
+- Dann muss man RAM zuweisen, man kann auch dynamisch RAM zuweisen lassen.
+- Das heißt das genau soviel RAM zur Verfügung gestellt wird wie benötigt wird
+- Als nächstes gibt man an zu welchem Netzwerk die Maschine gehören soll
+- Hier gibt man den zuvor erstellten Switch an
+- Im fünften Schritt wird eine Virtuelle Festplatte zugewiesen
+- Zuletzt gibt man an welches Betriebssystem man verwenden möchte. Hier direkt die ISO von dem gewünschten System auswählen.
 
 ---
 ## DC erstellen
 
 ### DC Server Vorbereiten
 
-Navigieren sie in die Einstellungen unter System/Info, klicken sie auf **Advanced System Settings**, navigieren sie unter **Computer Name** und ändern sie den Namen auf den finalen Namen -> 
+In den Windows-Einstellungen unter System/Info, klicken sie auf **Advanced System Settings**, navigieren sie zu **'Computer Name'** und ändern sie den Namen des Computers auf den gewünschten (finalen) Namen -> 
 Dies ist immer der erste Schritt weil es später sehr viel schwieriger ist und meist Probleme verursacht. Benennen sie den Computer so das der Name eindeutig ist und sie ihn sich merken können.
 
 Weisen sie dem DC eine statische IPv4 Adresse zu.
 
 Erstellen sie wenn noch nicht gemacht ein lokales Admin-Konto um einen Zugriff auf den Computer zu gewährleisten, selbst wenn die Domäne nicht erreichbar ist. Dieses Konto agiert somit als Fallback-System.
 
-Danach sollte man einen Pingtest im Netzwerk durchführen wobei man ICMP in der Firewall freischalten muss.
+Danach wäre es hilfreich einen Pingtest im Netzwerk durchführen Bitte bedenken, dass ICMP zu den Firewall-Regeln hinzugefügt werden muss.
 ### DC Erstellen
 
 Im Servermanager auf verwalten klicken
