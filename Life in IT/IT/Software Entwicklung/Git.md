@@ -99,3 +99,5 @@ Git Pull zieht nur die Änderungen und Merged diese mit dem Lokalen Repository
 git pull origin
 ```
 Das sorgt dafür dass die lokalen Änderungen erhalten bleiben.
+## Editor
+Manchmal wird der Editor aufgerufen um die Commit Message einzugeben. Dann fragt man dich wie man den Editor (VIM) schließt, man drückt **ESC** und gibt dann **:wq** ein und drückt **Enter.**
