@@ -65,4 +65,17 @@ Die Zonenübertragung übergibt die DNS Einträge an alle DNS Server in der Dom�
 ---
 
 # DHCP
- DHCP steht für **Dynamic Host Configuration Protocol** und beschreibt die dynamische IP Adressvergabe. 
+ DHCP steht für **Dynamic Host Configuration Protocol** und beschreibt die dynamische IP Adressvergabe.
+
+| Schritt 1 - 4 | Beschreibung                                                         |
+| ------------- | -------------------------------------------------------------------- |
+| Discover      | Der Client fragt nach einer IP Adresse                               |
+| Offer         | Der DHCP Server gibt eine IP Adresse zurück                          |
+| Request       | Der Client fragt ob er diese IP erhalten hat                         |
+| Acknowledge   | Der DHCP Server gibt die IP Adresse an den Client und reserviert sie |
+ Ein DHCP-Server kann mehr als nur eine IP-Adresse vergeben. Typischerweise sendet er:
+- **IP-Adresse** (z.B. 192.168.0.10)
+- **Subnetzmaske** (z.B. 255.255.255.0)
+- **Standard-Gateway** (z.B. 192.168.0.1 – also der Router)
+- **DNS-Server** (z.B. 8.8.8.8 oder der Router selbst)
+- **Lease Time** (Gültigkeitsdauer der Adresse, z. B. 24 Stunden)
