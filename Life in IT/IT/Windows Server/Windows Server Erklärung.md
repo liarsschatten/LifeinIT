@@ -62,3 +62,7 @@ Der SOA Start of Authority gibt den primären DNS Server an.
 
 Die Zonenübertragung übergibt die DNS Einträge an alle DNS Server in der Domäne.
 
+---
+
+# DHCP
+ DHCP steht für **Dynamic Host Configuration Protocol** und beschreibt die dynamische IP Adressvergabe. 

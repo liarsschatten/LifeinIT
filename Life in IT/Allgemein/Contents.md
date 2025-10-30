@@ -38,4 +38,9 @@
 # Soziales
 ## Arbeit
 - [[Arbeitsvertrag]]
+- [[Arbeitszeugnis]]
+- [[Beendigung des Arbeitsverhältnisses]]
 - [[Bewerbungen]]
+## Projekt Management
+- [[Lastenheft]]
+- [[Pflichtenheft]]
