@@ -72,12 +72,12 @@ Man kann nach folgenden Sachen suchen:
 
 ## zu /o
 
-| `n` | Alphabetisch nach Namen            |     |
-| --- | ---------------------------------- | --- |
-| `e` | Alphabetisch nach Erweiterung      |     |
-| `g` | Gruppenverzeichnisse zuerst        |     |
-| `s` | Nach Größe, kleinste zuerst        |     |
-| `d` | Nach Datum/Uhrzeit, älteste zuerst |     |
+| `n` | Alphabetisch nach Namen            |
+| --- | ---------------------------------- |
+| `e` | Alphabetisch nach Erweiterung      |
+| `g` | Gruppenverzeichnisse zuerst        |
+| `s` | Nach Größe, kleinste zuerst        |
+| `d` | Nach Datum/Uhrzeit, älteste zuerst |
 
 # exit
 - Beendet den Befehlsinterpreter oder das aktuelle Batchskript
