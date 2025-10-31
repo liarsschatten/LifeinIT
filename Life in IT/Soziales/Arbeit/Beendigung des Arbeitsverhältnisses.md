@@ -17,7 +17,7 @@ Bei einer Fristgerechten Kündigung greift mindestens der Allgemeine Kündigungs
 
 ### Kündigungsfristen
 
-Die gesetzlichen Kündigungsfristen variieren, je nach Situation und unterscheiden sich je nach Kündigungsinitiator.
+Die gesetzlichen Kündigungsfristen variieren, je nach Situation und Kündigungsinitiator.
 #### Arbeitgeber kündigt Arbeitnehmer
 - In der Probezeit sind es **mindestens** zwei Wochen Frist.
 - danach **mindestens** 4 Wochen, zum 15. eines Monats oder Monatsende.
