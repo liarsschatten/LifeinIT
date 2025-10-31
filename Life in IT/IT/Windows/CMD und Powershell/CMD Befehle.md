@@ -177,8 +177,6 @@ shutdown [/i | /l | /s | /sg | /r | /g | /a | /p | /h | /e | /o]
 | `/c <comment>`          | Ermöglicht es Ihnen, einen benutzerdefinierten Grund für das Herunterfahren oder Neustarten des Systems zu erstellen. Dieser muss in doppelte Anführungszeichen eingeschlossen werden. Sie können maximal 512 Zeichen verwenden. Kann auch mit dem Parameter **/d** verwendet werden.                                                                                                                                                                                                                                                                      |
 
 # sort
-<<<<<<< HEAD
-=======
 - Liest Eingaben, sortiert Daten und schreibt die Ergebnisse auf den Bildschirm, in eine Datei oder auf ein anderes Gerät.
 - ## sort Syntax
 	- ```cmd
@@ -199,7 +197,5 @@ shutdown [/i | /l | /s | /sg | /r | /g | /a | /p | /h | /e | /o]
 | `/t [<drive2>:][<path2>]`            | Gibt den Pfad des Verzeichnisses an, in dem der Arbeitsspeicher des **Sortierbefehls** gespeichert werden soll, wenn die Daten nicht in den Hauptspeicher passen. Standardmäßig wird das temporäre Systemverzeichnis verwendet.                       |
 | `/o [<drive3>:][<path3>]<filename3>` | Gibt die Datei an, in der die sortierte Eingabe gespeichert werden soll. Wenn nicht angegeben, werden die Daten in die Standardausgabe geschrieben. Die Angabe der Ausgabedatei ist schneller als das Umleiten der Standardausgabe an dieselbe Datei. |
 
-
->>>>>>> f58be21d6b9874c27276f1a60a6ff45aa1c8cc44
 # taskkill
 # tasklist
