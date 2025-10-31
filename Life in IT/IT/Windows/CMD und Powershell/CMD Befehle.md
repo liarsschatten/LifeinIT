@@ -196,12 +196,7 @@ shutdown [/i | /l | /s | /sg | /r | /g | /a | /p | /h | /e | /o]
 | `[<drive1>:][<path1>]<filename1>`    | Gibt die zu sortierende Datei an. Wenn kein Dateiname angegeben ist, wird die Standardeingabe sortiert. Die Angabe der Eingabedatei ist schneller als das Umleiten derselben Datei wie die Standardeingabe.                                           |
 | `/t [<drive2>:][<path2>]`            | Gibt den Pfad des Verzeichnisses an, in dem der Arbeitsspeicher des **Sortierbefehls** gespeichert werden soll, wenn die Daten nicht in den Hauptspeicher passen. Standardmäßig wird das temporäre Systemverzeichnis verwendet.                       |
 | `/o [<drive3>:][<path3>]<filename3>` | Gibt die Datei an, in der die sortierte Eingabe gespeichert werden soll. Wenn nicht angegeben, werden die Daten in die Standardausgabe geschrieben. Die Angabe der Ausgabedatei ist schneller als das Umleiten der Standardausgabe an dieselbe Datei. |
-<<<<<<< HEAD
-| `/unique`                            | Gibt nur eindeutige Ergebnisse zurück.|                                                                                                                                              
-=======
-| `/unique`                            | Gibt nur eindeutige Ergebnisse zurück.                                                                                                                                                                                                                |
-|                                      |                                                                                                                                                                                                                                                       |
->>>>>>> felix
+| `/unique`                            | Gibt nur eindeutige Ergebnisse zurück.|                                                                                                                                                                                                                                                                                                                                         
 
 # taskkill
 - Beendet eine oder mehrere Aufgaben oder Prozesse. Prozesse können nach Prozess-ID oder Imagename beendet werden. Mit dem [Befehl tasklist](https://learn.microsoft.com/de-de/windows-server/administration/windows-commands/tasklist) können Sie die Prozess-ID (PID) für den zu beendenden Prozess ermitteln.
