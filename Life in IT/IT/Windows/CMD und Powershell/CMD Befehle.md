@@ -199,4 +199,5 @@ shutdown [/i | /l | /s | /sg | /r | /g | /a | /p | /h | /e | /o]
 | `/unique`                            | Gibt nur eindeutige Ergebnisse zurück.                                                                                                                                                                                                                |
 
 # taskkill
+- Beendet eine oder mehrere Aufgaben oder Prozesse. Prozesse können nach Prozess-ID oder Imagename beendet werden. Mit dem [Befehl tasklist](https://learn.microsoft.com/de-de/windows-server/administration/windows-commands/tasklist) können Sie die Prozess-ID (PID) für den zu beendenden Prozess ermitteln.
 # tasklist
