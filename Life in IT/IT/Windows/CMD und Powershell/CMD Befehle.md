@@ -6,13 +6,21 @@ Man kann nach folgenden Sachen suchen:
 - Name eines Rechners._domain_
 - IPv4 Adresse eines Rechners
 - IPv6 Adresse eines Rechners
+
 # Filesystem Befehle
 ## CD
 
 - Der Befehl **cd (change directory)** wird verwendet, um das aktuelle Arbeitsverzeichnis zu ändern
-- CD Syntax:    
+- ## CD Syntax: 
+	- 
+	  ```cmd
+		  cd [/d] [<Laufwerk>:][<Pfad>]
+		  cd [..]
+		  chdir [/d] [<Laufwerk>:][<Pfad>]
+		  chdir [..]
+		```
 
-- CD Parameter:
+- ## CD Parameter
 
 | Parameter  | Beschreibung                                               |
 | ---------- | ---------------------------------------------------------- |
@@ -26,90 +34,99 @@ Man kann nach folgenden Sachen suchen:
 | `a[[:] ]`  | Zeigt nur Dateien/Verzeichnisse mit bestimmten Attributen* |
 | `/o[[:] ]` | Sortiert nach Kombinationen von `n`, `e`, `g`, `s`, `d`*   |
 
-- CLS (Clear)
+- # CLS (Clear)
+	- Löscht das Eingabeaufforderungsfenster
 
-- Löscht das Eingabeaufforderungsfenster
+- # DIR(Directory)
+	- Zeigt eine Liste der Dateien und Unterverzeichnisse eines Verzeichnisses an
+	- ## Syntax:
+		- ```cmd
+			dir [<drive>:][<path>][<filename>] [...] [/p] [/q] [/w] [/d] [/a[[:]                 <attributes>]
+			[/o[[:]<sortorder>]] [/t[[:]<timefield>]] [/s] [/b] [/l] [/n] [/x] [/c]              [/4] [/r]
+		  ```
 
-- DIR(Directory)
+- ## DIR Parameter:
 
-- Zeigt eine Liste der Dateien und Unterverzeichnisse eines Verzeichnisses an
-- Syntax:
+| **Parameter** | **Beschreibung**                                                                                 |
+| ------------- | ------------------------------------------------------------------------------------------------ |
+| `[:]`         | Gibt das Laufwerk an, für das eine Auflistung angezeigt werden soll                              |
+| `[`           | Gibt das Verzeichnis an, für das eine Auflistung angezeigt werden soll                           |
+| `[]`          | Gibt eine bestimmte Datei an, die für die Auflistung angezeigt werden soll                       |
+| `/p`          | Zeigt jeweils einen Bildschirm der Auflistung an                                                 |
+| `/q`          | Zeigt Dateibesitzinformationen an                                                                |
+| `/w`          | Zeigt die Auflistung im breiten Format an                                                        |
+| `/d`          | Zeigt die Liste im gleichen Format wie `/w` an, aber die Dateien sind spaltenweise sortiert      |
+| `/a[[:] ]`    | Zeigt nur Dateien und Verzeichnisse mit den angegebenen Attributen an                            |
+| `/o[[:]`      | Sortiert die Ausgabe nach sortorder, die eine beliebe Kombination der fehlenden Werte sein kann: |
 
-- 		  dir [:][
-    
+## zu /a
 
-- DIR Parameter:
+| `h` | Versteckte Dateien                       |
+| --- | ---------------------------------------- |
+| `d` | Verzeichnisse                            |
+| `s` | Systemdateien                            |
+| `I` | Punkte reparsieren                       |
+| `r` | Schreibgeschützte Dateien                |
+| `a` | Dateien, die zu Archivierung bereit sind |
+| `i` | nicht inhaltlich indizierte Dateien      |
 
-| **Parameter** | **Beschreibung**                                                                            |
-| ------------- | ------------------------------------------------------------------------------------------- |
-| `[:]`         | Gibt das Laufwerk an, für das eine Auflistung angezeigt werden soll                         |
-| `[`           | Gibt das Verzeichnis an, für das eine Auflistung angezeigt werden soll                      |
-| `[]`          | Gibt eine bestimmte Datei an, die für die Auflistung angezeigt werden soll                  |
-| `/p`          | Zeigt jeweils einen Bildschirm der Auflistung an                                            |
-| `/q`          | Zeigt Dateibesitzinformationen an                                                           |
-| `/w`          | Zeigt die Auflistung im breiten Format an                                                   |
-| `/d`          | Zeigt die Liste im gleichen Format wie `/w` an, aber die Dateien sind spaltenweise sortiert |
-| `/a[[:] ]`    | Zeigt nur Dateien und Verzeichnisse mit den angegebenen Attributen an                       |
- 
-   **d** - Verzeichnisse  
-   **h** - Versteckte Dateien  
-   **s** - Systemdateien  
-   **I** - Punkte reparsieren  
-   **r** - Schreibgeschütze Dateien  
-   **a** - Dateien, die zur Archivierung bereit sind  
-   **i** - Nicht inhaltlich indizierte Dateien|  
-  
-  |`/o[[:]| Sortiert die Ausgabe nach sortorder, die eine beliebe Kombination der fehlenden Werte sein kann:   **n** - Alphabetisch nach Namen   **e** - Alphabetische nach Erweiterung   **g** - Gruppenverzeichnisse zuerst   **s** - Nach Größe, kleinste zuerst   **d** - Nach Datum/Uhrzeit, älteste zuerst|   `
+## zu /o
 
- `exit`
+| `n` | Alphabetisch nach Namen            |
+| --- | ---------------------------------- |
+| `e` | Alphabetisch nach Erweiterung      |
+| `g` | Gruppenverzeichnisse zuerst        |
+| `s` | Nach Größe, kleinste zuerst        |
+| `d` | Nach Datum/Uhrzeit, älteste zuerst |
 
-`Beendet den Befehlsinterpreter oder das aktuelle Batchskript`
+# exit
+- Beendet den Befehlsinterpreter oder das aktuelle Batchskript
 
-| **Parameter** | **Description**                  |     |
-| ------------- | -------------------------------- | --- |
-| `/b`          | Beendet das aktuelle Batchskript |     |
-|               | Gibt eine numerische Zahl an.    |     |
+| **Parameter** | **Description**                  |
+| ------------- | -------------------------------- |
+| `/b`          | Beendet das aktuelle Batchskript |
+| `<exitcode>`  | Gibt eine numerische Zahl an.    |
 
-- `find`
-
-- `Sucht nach einer Textzeichenfolge in einer Datei oder Dateien und zeigt Textzeilen an, die die angegebenen Zeichenfolgen enthalten.`
-- `find Syntax:`
+- # find
+	- Sucht nach einer Textzeichenfolge in einer Datei oder Dateien und zeigt Textzeilen an, die die angegebenen Zeichenfolgen enthalten.`
+- ## find Syntax:`
+```cmd
+	find [/v] [/c] [/n] [/i] [/off[line]] <"string">
+	[[<drive>:][<path>]<filename>[...]]
 ```
-find [/v] [/c] [/n] [/i] [/off[line]] <"string"> [[:][
-```
-`find Parameter:`
 
-| **Parameter** | **Description**                                                                       |
-| ------------- | ------------------------------------------------------------------------------------- |
-| `/v`          | Zeigt alle Zeilen an, die nicht die angegebene enthalten                              |
-| `/c`          | Zählt die Zeilen, die die angegebene enthalten, und zeigt die Summe an                |
-| `/n`          | Steht vor jeder Zeile mit der Zeilennummer der Datei.                                 |
-| `/i`          | Gibt an, dass bei der Suche die Groß-/Kleinschreibung nicht beachtet wird             |
-| `/off[line]`  | Überspringt keine Datei, für die der Offline-Attributsatz festgelegt ist              |
-| `<"string">`  | required. Gibt die Gruppe von Zeichen an, nach denen Sie suchen möchten               |
-| `[:] [`       | Gibt den Speicherort und den Namen der Datei an, in der die Zeichenfolge gesucht wird |
+## find Parameter:
 
-`hostname`
-`Zeigt den Hostnamenteil des vollständigen Computernamens an.`
-`hostname Syntax:`
+| **Parameter**                     | **Description**                                                                       |
+| --------------------------------- | ------------------------------------------------------------------------------------- |
+| `/v`                              | Zeigt alle Zeilen an, die nicht die angegebene enthalten                              |
+| `/c`                              | Zählt die Zeilen, die die angegebene enthalten, und zeigt die Summe an                |
+| `/n`                              | Steht vor jeder Zeile mit der Zeilennummer der Datei.                                 |
+| `/i`                              | Gibt an, dass bei der Suche die Groß-/Kleinschreibung nicht beachtet wird             |
+| `/off[line]`                      | Überspringt keine Datei, für die der Offline-Attributsatz festgelegt ist              |
+| `<"string">`                      | required. Gibt die Gruppe von Zeichen an, nach denen Sie suchen möchten               |
+| `[<drive:>:] [<path>] <filename>` | Gibt den Speicherort und den Namen der Datei an, in der die Zeichenfolge gesucht wird |
 
-```
+# hostname:
+- Zeig den Hostnamenteil des vollständigen Computernamens an.
+## hostname Syntax:
+
+```cmd
 hostname
 ```
 
-`pause`
-
-`Hält die Verarbeitung eines Batchprogrammes an, zeigt die Eingabeaufforderung an.`
-`pause Syntax:`
-```
+# pause
+- Hält die Verarbeitung eines Batchprogrammes an, zeigt die Eingabeaufforderung an.
+## pause Syntax:
+```cmd
 pause
 ```
 
-`runas (Changed to Run as administrator)`
+# runas (Changed to Run as administrator)`
 
-`Ermöglicht es einem Benutzer, bestimmte Tools und Programme mit anderen Berechtigungen als denen auszuführen, die die aktuelle Anmeldung des Benutzers bietet.`
-`runas Syntax:`
-```
+- Ermöglicht es einem Benutzer, bestimmte Tools und Programme mit anderen Berechtigungen als denen auszuführen, die die aktuelle Anmeldung des Benutzers bietet.
+## runas Syntax:
+```cmd
 runas [{/profile | /noprofile}] [/env] [{/netonly | /savecred}] [/smartcard]
 [/showtrustlevels] [/trustlevel] /user: " "
 ```
@@ -127,7 +144,59 @@ runas [{/profile | /noprofile}] [/env] [{/netonly | /savecred}] [/smartcard]
 | `/user:<UserAccountName>"<ProgramName>"` | Gibt den Namen des Benutzerkontos an, unter dem das Programm ausgeführt werden soll, den Namen des Programms und den Pfad zur Programmdatei. |
 
 
-`shutdown`
-`sort`
-`taskkill`
-`tasklist`
+# shutdown
+- Ermöglicht das Herunterfahren oder Neustarten von jeweils einem lokalen Computer oder Remotecomputer
+## shutdown Sytax
+```cmd
+shutdown [/i | /l | /s | /sg | /r | /g | /a | /p | /h | /e | /o]
+[/hybrid] [/soft] [/fw] [/f] [/m \\computer][/t xxx][/d [p|u:]xx:yy [/c "comment"]]
+```
+
+## shutdown Parameter
+
+| **Parameter**           | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `/i`                    | Zeigt das Feld **Fernabschaltung an** . Die Option **/i** muss der erste Parameter nach dem Befehl sein. Wenn **/i** angegeben ist, werden alle anderen Optionen ignoriert.                                                                                                                                                                                                                                                                                                                                                                                |
+| `/I`                    | Meldet den aktuellen Benutzer sofort und ohne Zeitüberschreitung ab. Der / **l-Parameter** funktioniert unabhängig und kann nicht mit anderen Parametern kombiniert werden. Versuche, **/l** mit einem anderen Parameter zu kombinieren, werden ignoriert.                                                                                                                                                                                                                                                                                                 |
+| `/s`                    | Fährt den Computer herunter.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `/sg`                   | Fährt den Computer herunter. Wenn beim nächsten Start die Option **Automatic Restart Sign-On** (Automatische Anmeldung nach einem Neustart) aktiviert ist, meldet sich das Gerät automatisch an und sperrt es basierend auf dem letzten interaktiven Benutzer. Nach der Anmeldung werden alle registrierten Anwendungen neu gestartet.                                                                                                                                                                                                                     |
+| `/r`                    | Startet den Computer nach dem Herunterfahren neu.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| `/g`                    | Fährt den Computer vollständig herunter und startet ihn neu. Wenn beim Neustart die Option **Automatische Anmeldung beim Neustart** aktiviert ist, meldet sich das Gerät automatisch an und sperrt es basierend auf dem letzten interaktiven Benutzer. Nach der Anmeldung werden alle registrierten Anwendungen neu gestartet.                                                                                                                                                                                                                             |
+| `/a`                    | Bricht das Herunterfahren des Systems ab. Kann nur während des Timeoutzeitraums verwendet werden. Kombinieren Sie mit **/fw** , um alle ausstehenden Starts in der Firmware zu löschen.                                                                                                                                                                                                                                                                                                                                                                    |
+| `/p`                    | Deaktiviert nur den lokalen Computer (keinen Remotecomputer) ohne Zeitüberschreitung oder Warnung. Sie können **/p** nur mit **/d** oder **/f** verwenden. Wenn Ihr Computer die Ausschaltfunktion nicht unterstützt, wird er heruntergefahren, wenn Sie **/p** verwenden, aber die Stromversorgung des Computers bleibt eingeschaltet.                                                                                                                                                                                                                    |
+| `/h`                    | Versetzt den lokalen Computer in den Ruhezustand, wenn der Ruhezustand aktiviert ist. Der Schalter **/f** kann mit dem Schalter **/h** verwendet werden.                                                                                                                                                                                                                                                                                                                                                                                                   |
+| `/hybrid`               | Fährt das Gerät herunter und bereitet es für den schnellen Start vor. Diese Option muss mit der Option **/s** verwendet werden.                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| `/soft`                 | Ermöglicht das ordnungsgemäße Schließen von ausgeführten Prozessen und Anwendungen anstatt einer Zwangsbeendigung.                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `/fw`                   | Die Kombination dieser Option mit einer Option zum Herunterfahren führt dazu, dass der nächste Neustart zur Firmware-Benutzeroberfläche wechselt.                                                                                                                                                                                                                                                                                                                                                                                                          |
+| `/e`                    | Ermöglicht es Ihnen, den Grund für ein unerwartetes Herunterfahren eines Computers in der Ereignisprotokollierung dokumentieren.                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| `/o`                    | Wechselt zum Menü **Erweiterte Startoptionen** und startet das Gerät neu. Diese Option muss mit der Option **/r** verwendet werden.                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `/f`                    | Erzwingt, dass aktive Anwendungen ohne Vorwarnung geschlossen werden.  <br>**Vorsicht:** Die Verwendung der Option **/f** kann zum Verlust nicht gespeicherter Daten führen.                                                                                                                                                                                                                                                                                                                                                                               |
+| `/m \\<computername>`   | Legt den Zielcomputer fest.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| `/t <xxx>`              | Legt die Zeitüberschreitung vor dem Herunterfahren auf _xxx_ Sekunden fest. Der gültige Bereich ist 0 bis 315360000 (10 Jahre), und der Standardwert ist 30. Wenn der Timeoutzeitraum größer als 0 ist, wird der Parameter **/f** impliziert.                                                                                                                                                                                                                                                                                                              |
+| `/d [p \| u:]<xx>:<yy>` | Listet den Grund für den Neustart oder das Herunterfahren des Systems auf. Die unterstützten Parameterwerte sind:  <br><br>- **P** - Gibt an, dass der Neustart oder das Herunterfahren geplant ist.<br>- **U** - Gibt an, dass der Grund benutzerdefiniert ist.  <br>    Wenn **p** oder **u** nicht angegeben sind, ist der Neustart oder das Herunterfahren nicht geplant.<br>  <br>- _xx_ - Gibt die Hauptgrundzahl an (eine positive ganze Zahl, kleiner als 256).<br>- _Yy_ Gibt die Nebengrundzahl an (eine positive ganze Zahl kleiner als 65536). |
+| `/c <comment>`          | Ermöglicht es Ihnen, einen benutzerdefinierten Grund für das Herunterfahren oder Neustarten des Systems zu erstellen. Dieser muss in doppelte Anführungszeichen eingeschlossen werden. Sie können maximal 512 Zeichen verwenden. Kann auch mit dem Parameter **/d** verwendet werden.                                                                                                                                                                                                                                                                      |
+
+# sort
+- Liest Eingaben, sortiert Daten und schreibt die Ergebnisse auf den Bildschirm, in eine Datei oder auf ein anderes Gerät.
+- ## sort Syntax
+	- ```cmd
+	  sort [/r] [/+<N>] [/m <kilobytes>] [/l <locale>] [/rec <characters>]
+	  [[<drive1>:][<path1>]<filename1>] [/t [<drive2>:][<path2>]] [/o [<drive3>:]
+	  [<path3>]<filename3>]
+	  ```
+## sort Parameter
+
+| Parameter                            | Description                                                                                                                                                                                                                                           |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `/r`                                 | Umkehrt die Sortierreihenfolge (d. a. sortiert von Z zu A und von 9 bis 0).                                                                                                                                                                           |
+| `/+<N>`                              | Gibt die Nummer der Zeichenposition an, an der **die Sortierung** bei jedem Vergleich beginnt. _N_ kann eine beliebige gültige ganze Zahl sein.                                                                                                       |
+| `/m<kilobytes>`                      | Gibt die Menge an Arbeitsspeicher an, die für die Sortierung in Kilobyte (KB) verwendet werden soll.                                                                                                                                                  |
+| `/l <Gebietsschema->`                | Überschreibt die Sortierreihenfolge von Zeichen, die durch das Standardgebietsschema des Systems definiert werden (d. a. die Sprache und das Land/die Region, die während der Installation ausgewählt sind).                                          |
+| `/Rec <characters>`                  | Gibt die maximale Anzahl von Zeichen in einem Datensatz oder einer Zeile der Eingabedatei an (der Standardwert ist 4.096 und der Maximalwert beträgt 65.535).                                                                                         |
+| `[<drive1>:][<path1>]<filename1>`    | Gibt die zu sortierende Datei an. Wenn kein Dateiname angegeben ist, wird die Standardeingabe sortiert. Die Angabe der Eingabedatei ist schneller als das Umleiten derselben Datei wie die Standardeingabe.                                           |
+| `/t [<drive2>:][<path2>]`            | Gibt den Pfad des Verzeichnisses an, in dem der Arbeitsspeicher des **Sortierbefehls** gespeichert werden soll, wenn die Daten nicht in den Hauptspeicher passen. Standardmäßig wird das temporäre Systemverzeichnis verwendet.                       |
+| `/o [<drive3>:][<path3>]<filename3>` | Gibt die Datei an, in der die sortierte Eingabe gespeichert werden soll. Wenn nicht angegeben, werden die Daten in die Standardausgabe geschrieben. Die Angabe der Ausgabedatei ist schneller als das Umleiten der Standardausgabe an dieselbe Datei. |
+
+
+# taskkill
+# tasklist
