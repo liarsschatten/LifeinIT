@@ -25,6 +25,12 @@
 ## Windows Server
 - [[Windows Server Anleitung]]
 - [[Windows Server Erklärung]]
+### Anleitung
+- [[DHCP]]
+- [[DNS]]
+- [[Domain Controller]]
+- [[Hyper V]]
+- [[Windows Server Installieren]]
 
 ---
 
