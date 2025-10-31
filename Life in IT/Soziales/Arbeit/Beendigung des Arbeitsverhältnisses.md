@@ -17,10 +17,11 @@ Bei einer Fristgerechten Kündigung greift mindestens der Allgemeine Kündigungs
 
 ### Kündigungsfristen
 
-Die gesetzlichen Kündigungsfristen variieren, je nach Situation und unterscheiden sich je nach Kündigungsinitiator.
+Die gesetzlichen Kündigungsfristen variieren, je nach Situation und Kündigungsinitiator.
 #### Arbeitgeber kündigt Arbeitnehmer
-- **mindestens** 4 Wochen, zum 15. eines Monats oder Monatsende.
-Wenn der Zeitraum der Betriebszugehörigkeit ein gewisses Ausmaß erreicht hat, erhöhen sich die Fristen wie folgt.
+- In der Probezeit sind es **mindestens** zwei Wochen Frist.
+- danach **mindestens** 4 Wochen, zum 15. eines Monats oder Monatsende.
+Wenn der Zeitraum der Betriebszugehörigkeit ein gewisses Ausmaß erreicht hat und der Betrieb mehr als 10 Mitarbeiter, erhöhen sich die Fristen wie folgt.
 
 | Betriebszugehörigkeit | Kündigungsfrist         |
 | --------------------- | ----------------------- |
