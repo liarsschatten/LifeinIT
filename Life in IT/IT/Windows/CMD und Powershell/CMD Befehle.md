@@ -5,8 +5,8 @@ Nach dem Eingeben von nslookup kann man DNS Einträge suchen
 Man kann nach folgenden Sachen suchen:
 - Name eines Rechners
 - Name eines Rechners._domain_
-- IPv4 Adresse eines Rechners
-- IPv6 Adresse eines Rechners
+- IPv4-Adresse eines Rechners
+- IPv6-Adresse eines Rechners
 
 # Filesystem Befehle
 ## CD
@@ -89,8 +89,8 @@ Man kann nach folgenden Sachen suchen:
 | `<exitcode>`  | Gibt eine numerische Zahl an.    |
 
 - # find
-	- Sucht nach einer Textzeichenfolge in einer Datei oder Dateien und zeigt Textzeilen an, die die angegebenen Zeichenfolgen enthalten.`
-- ## find Syntax:`
+	- Sucht nach einer Textzeichenfolge in einer Datei oder Dateien und zeigt Textzeilen an, die die angegebenen Zeichenfolgen enthalten.
+- ## find Syntax:
 ```cmd
 	find [/v] [/c] [/n] [/i] [/off[line]] <"string">
 	[[<drive>:][<path>]<filename>[...]]
@@ -123,7 +123,7 @@ hostname
 pause
 ```
 
-# runas (Changed to Run as administrator)`
+# runas (Changed to Run as administrator)
 
 - Ermöglicht es einem Benutzer, bestimmte Tools und Programme mit anderen Berechtigungen als denen auszuführen, die die aktuelle Anmeldung des Benutzers bietet.
 ## runas Syntax:
@@ -146,7 +146,7 @@ runas [{/profile | /noprofile}] [/env] [{/netonly | /savecred}] [/smartcard]
 
 
 # shutdown
-- Ermöglicht das Herunterfahren oder Neustarten von jeweils einem lokalen Computer oder Remotecomputer
+- Ermöglicht das Herunterfahren oder Neustarten von jeweils einem lokalen Computer oder Remotecomputer.
 ## shutdown Sytax
 ```cmd
 shutdown [/i | /l | /s | /sg | /r | /g | /a | /p | /h | /e | /o]
@@ -219,7 +219,7 @@ shutdown [/i | /l | /s | /sg | /r | /g | /a | /p | /h | /e | /o]
 | `/f`                     | Gibt an, dass Beenden von Prozessen erzwungen wird. Dieser Parameter wird für Remoteprozesse ignoriert. Das Beenden von Remoteprozessen wird immer erzwungen.                                                                                                                                                                                                                                                        |
 | `/t`                     | Beendet den angegebenen Prozess und alle von ihm gestarteten Unterprozessse.                                                                                                                                                                                                                                                                                                                                         |
 # tasklist
-- Zeigt eine Liste der derzeit ausgeführten Prozesse auf dem lokalen Computer oder auf einem Remotecomputer an. **Tasklist** ersetzt das **tlist-Tool** .
+- Zeigt eine Liste der derzeit ausgeführten Prozesse auf dem lokalen Computer oder auf einem Remotecomputer an. **Tasklist** ersetzt das **tlist-Tool**.
 ## tasklist Syntax:
 ```cmd 
 tasklist [/s <computer> [/u [<domain>\]<username> [/p <password>]]]
