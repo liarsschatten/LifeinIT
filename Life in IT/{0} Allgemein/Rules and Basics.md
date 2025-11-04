@@ -5,3 +5,14 @@
    Hier wird Code eingetragen
    ```
 4. 
+
+
+# Basics
+
+## Erklärung Bezeichnung
+
+0 - 
+1-12 - Lernfelder 
+
+## Umgang 
+
