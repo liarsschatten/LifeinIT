@@ -25,8 +25,8 @@ Diese Kombination sorgt für eine Entlastung des ALGs, weil falsch adressierte P
 ---
 # Hochverfügbarkeit
 ## Einführung
-Ausfallsicherheit ist ein wichtiges Thema in der IT Infrastruktur
-Es geht dabei, um sicherzustellen, dass wichtige Infrastruktur keine Totalausfälle hat
+Ausfallsicherheit ist ein wichtiges Thema in der IT-Infrastruktur
+Es geht dabei darum, sicherzustellen, dass wichtige Infrastruktur keine Totalausfälle hat
 Es wird auch Redugit brancndanz genannt
 ## Passive Redundanz
 Bedeutet, dass ein Ersatz bereitsteht, um zu übernehmen, wenn der erste ausfällt
