@@ -1,9 +1,9 @@
 # Allgemeines
-Eine Firewall ist ein Mittel zur Überprüfung von Paketen welche nach OSI-Standard versendet werden.
+Eine Firewall ist ein Mittel zur Überprüfung von Paketen welche nach OSI-Standard versendet werden. Die verschiedenen Firewall-Typen arbeiten auf verschiedenen Schichten des ISO/OSI Modells und sind daher in der Lage entweder mehr oder weniger Informationen zu überprüfen. Prinzipiell zu verstehen ist - je gründlicher, desto Leistungsaufwändiger ist es.
 
 ---
 # Paketfilter
-Die simpelste Form der Firewall sie blockiert alles und lässt nur bestimmte IPs oder bestimmte [[Transport Layer]] durch. Sie ist wegen der der Aufbauweise leistungseffizient. Aufgrund der Funktionsweise benötigt sie einen höheren Administrativen Aufwand. Sie ist zudem unflexibel (kennt nur offen oder zu), heißt sie kann nicht dynamisch Ports öffnen und schließen.
+Der Paketfilter ist simpelste Form der Firewall. Er blockiert alles und lässt nur Pakete in oder aus dem System, die entsprechende Eigenschaften besitzen. Diese werden in den Regeln festgelegt. Der Paketfilter kann nach Quell- und Ziel-IP-Adresse, sowie dem Port filtern ([[Transport Layer]]) durch. Er ist wegen der Aufbauweise sehr leistungseffizient, ist aber nicht . Aufgrund der Funktionsweise benötigt sie einen höheren Administrativen Aufwand. Sie ist zudem unflexibel (kennt nur offen oder zu), heißt sie kann nicht dynamisch Ports öffnen und schließen.
 
 ---
 # Stateful Packet Inspection
