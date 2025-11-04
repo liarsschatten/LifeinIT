@@ -5,9 +5,9 @@ Es wird weltweit genutzt und ist als gängiger Standard unerlässlich. Es besteh
 
 ---
 ## Layer 1
-Der **Physical Layer**: Hier werden die Daten in Bits übertragen. In dieser Schicht wird kein Übertragungsprotokoll genutzt.
+Der **Physical Layer** ist die unterste Schicht, hier werden die Daten in Bits übertragen. In dieser Schicht wird kein Übertragungsprotokoll genutzt.
 ## Layer 2
-Der **Data Link Layer**: Verwendet hauptsächlich das Ethernet-Protokoll, dieses nutzt die eindeutige MAC-Adresse als eindeutige Identifikation eines Gerätes/Netzwerk-Adapters. Der Zusatz wird Frame genannt. Es wird sichergestellt, dass die Daten an das richtige Gerät gesendet werden.
+Der **Data Link Layer** verwendet hauptsächlich das Ethernet-Protokoll, dieses nutzt die eindeutige MAC-Adresse als eindeutige Identifikation eines Gerätes/Netzwerk-Adapters. Der Zusatz wird Frame genannt. Es wird sichergestellt, dass die Daten an das richtige Gerät gesendet werden.
 Switches arbeiten auf dieser Ebene.
 ## Layer 3
 Der **Network Layer** nutzt das IP-Protokoll und die dazugehörige IP-Adresse, um das Datenpaket an die richtige IP-Adresse zu senden. Dieser Layer spielt eine essentielle Rolle bei der Datenübertragung zwischen Netzwerken. Der Zusatz wird Packet genannt.
