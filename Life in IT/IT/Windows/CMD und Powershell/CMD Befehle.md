@@ -1,3 +1,4 @@
+#Windows 
 # Netzwerk Befehle
 ## NS Lookup (nslookup)
 Nach dem Eingeben von nslookup kann man DNS Einträge suchen

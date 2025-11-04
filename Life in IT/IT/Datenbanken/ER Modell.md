@@ -1,3 +1,4 @@
+#Datenbank
 # Allgemeines
 
 ER-Modell steht für Entity Relationship Modell und es beschreibt den Aufbau einer Datenbank oder einfach gesagt einer Informationssammlung mit Zusammenhängenden Informationen. 

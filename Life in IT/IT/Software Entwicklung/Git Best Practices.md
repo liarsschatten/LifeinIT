@@ -1,3 +1,4 @@
+#Software 
 # Reihenfolge der Merge Strategie
 1.  Branch erstellen - **git branch Name**
 2.  Arbeiten im eigenen Branch

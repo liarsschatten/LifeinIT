@@ -1,3 +1,4 @@
+#Netzwerke 
 # Schichten
 Das OSI Modell ist ein Standard für Datenübertragung im Netzwerk Datentransfer. 
 Es wird weltweit genutzt und ist als gängiger Standard unerlässlich. Es besteht aus sieben Layern - auch Schichten genannt. Bei einer Datenübertragung werden die Schichten immer der Reihenfolge nach durchlaufen. Das heißt wenn ein Gerät bis Schicht 4 kommuniziert werden auch Schicht 1 - 3 durchlaufen. In jeder Schicht wird ein Zusatz - ein Header mit zusätzlichen Informationen des spezifischen Layers -  vorne angefügt. Dies gilt nicht für das Physical Layer (Bitübertragungsschicht), da auf dieser Schicht nur die reine Datenübertragung stattfindet.

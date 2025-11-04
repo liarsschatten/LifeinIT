@@ -1,3 +1,4 @@
+#CPS
 # Allgemeine Definition
 Der Rebound Effekt beschreibt ein Phänomen bei dem eine Effizienzsteigerung nicht zum erwarteten Effekt führt
 Das liegt daran das durch die gesteigerte Effizienz es häufiger genutzt bzw. intensiver genutzt wird was die ursprüngliche Einsparung reduziert oder sogar ganz aufhebt

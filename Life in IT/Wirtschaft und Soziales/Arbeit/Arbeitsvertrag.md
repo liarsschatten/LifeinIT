@@ -1,3 +1,4 @@
+#Arbeit 
 # Allgemeines
 Ein Arbeitsvertrag wird zwischen zwei Personen geschlossen, Arbeitnehmer und Arbeitgeber **Vereinbaren ein Arbeitsverhältnis.** 
 Die Rechtliche Grundlage bildet das Bürgerliche Gesetzbuch BGB (§§ 611a ff.) sowie das Nachweisgesetz (NachwG).

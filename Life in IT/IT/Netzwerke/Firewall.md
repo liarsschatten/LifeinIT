@@ -1,3 +1,4 @@
+#Netzwerke 
 # Allgemeines
 Eine Firewall ist ein Mittel zur Überprüfung von Paketen welche nach OSI-Standard versendet werden. Die verschiedenen Firewall-Typen arbeiten auf verschiedenen Schichten des ISO/OSI Modells und sind daher in der Lage entweder mehr oder weniger Informationen zu überprüfen. Prinzipiell zu verstehen ist - je gründlicher, desto Leistungsaufwändiger ist es.
 

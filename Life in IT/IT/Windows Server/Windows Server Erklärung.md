@@ -1,3 +1,4 @@
+#Windows-Server 
 # Domain Controller
 
 Ein Domain Controller kurz 'DC' sorgt dafür dass man sich nahtlos mit jedem in die Domäne eingebundenen Rechner verbinden kann

@@ -1,3 +1,4 @@
+#Projektmanagement 
 # Allgemeines
 Im Lastenheft steht nach DIN 69901-5, VDI 2519 Blatt 1, VDI 3694 die vom Auftraggeber  gegebenen Forderungen an die Lieferungen und Leistungen eines Auftragnehmers innerhalb eines Auftrages. 
 Im Einzelnen enthält das Lastenheft alle Forderungen des Auftraggebers (Kunden) an die Lieferungen und/oder Leistungen eines Auftragnehmers. 
