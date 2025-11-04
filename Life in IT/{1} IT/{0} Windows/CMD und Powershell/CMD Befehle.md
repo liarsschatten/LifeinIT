@@ -12,16 +12,16 @@ Man kann nach folgenden Sachen suchen:
 ## CD
 
 - Der Befehl **cd (change directory)** wird verwendet, um das aktuelle Arbeitsverzeichnis zu ändern
-- ## CD Syntax: 
-	- 
-	  ```cmd
-	  cd [/d] [<Laufwerk>:][<Pfad>]
-	  cd [..]
-	  chdir [/d] [<Laufwerk>:][<Pfad>]
-	  chdir [..]
-		```
+## CD Syntax: 
 
-- ## CD Parameter
+```cmd
+  cd [/d] [<Laufwerk>:][<Pfad>]
+  cd [..]
+  chdir [/d] [<Laufwerk>:][<Pfad>]
+  chdir [..]
+```
+
+## CD Parameter
 
 | Parameter  | Beschreibung                                               |
 | ---------- | ---------------------------------------------------------- |
@@ -41,10 +41,9 @@ Man kann nach folgenden Sachen suchen:
 - # DIR(Directory)
 	- Zeigt eine Liste der Dateien und Unterverzeichnisse eines Verzeichnisses an
 	- ## Syntax:
-		- ```cmd
-			dir [<drive>:][<path>][<filename>] [...] [/p] [/q] [/w] [/d] [/a[[:] <attributes>]
-			[/o[[:]<sortorder>]] [/t[[:]<timefield>]] [/s] [/b] [/l] [/n] [/x] [/c] [/4] [/r]
-			```
+```cmd
+dir [<drive>:][<path>][<filename>] [...] [/p] [/q] [/w] [/d] [/a[[:] <attributes>][/o[[:]<sortorder>]] [/t[[:]<timefield>]] [/s] [/b] [/l] [/n] [/x] [/c] [/4] [/r]
+```
 			
 - ## DIR Parameter:
 
