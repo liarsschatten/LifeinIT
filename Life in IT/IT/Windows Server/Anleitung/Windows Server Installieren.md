@@ -23,7 +23,7 @@
 # Ersteinrichtung
 
 1. Navigieren sie in die Einstellungen unter System/Info
-2. Klicken sie auf **Computername ändern** -> Dies ist immer der erste Schritt weil es später sehr viel schwieriger ist und meist Probleme verursacht
+2. Klicken sie auf **Computername ändern** -> Dies sollte immer der erste Schritt sein, da sonst gerne Probleme entstehen.
 3. Benennen sie den Computer mit einem möglichst eindeutigen Namen und melden Sie sich in der Domäne an.
 4. Danach kommt ein _wichtiger_ Schritt nämlich das erstellen eines **lokalen Admin** Kontos.
 5. Dazu begibt man sich in die Nutzerverwaltung und erstellt zunächst einen Nutzer, dem gibt man dann Administrator Rechte indem man ihn in die Gruppe Administratoren hinzufügt.
