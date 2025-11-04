@@ -1,4 +1,4 @@
-#Netzwerke 
+#Firewall  
 # Installation
 1. Installieren sie eine neue Linux VM
 	1. Wählen sie IP-Fire ISO aus

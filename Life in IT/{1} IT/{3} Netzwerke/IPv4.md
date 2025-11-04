@@ -1,4 +1,4 @@
-#Netzwerke 
+#Network-Layer 
 # IP Adresse 
 Die IPv4 Adresse besteht aus 4 Oktetten mit jeweils 8 Bit das heißt sie ist insgesamt 32 Bit lang. 
 

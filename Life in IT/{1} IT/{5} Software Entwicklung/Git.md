@@ -1,4 +1,4 @@
-#Software
+#Git
 # Einführung
 Git ist ein Programm welches zur Versionierung verwendet wird.
 Versionierung bedeutet das jede einzelne Version des Entwicklungsfortschritts behalten wird.
