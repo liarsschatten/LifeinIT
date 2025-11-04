@@ -15,10 +15,10 @@ Man kann nach folgenden Sachen suchen:
 - ## CD Syntax: 
 	- 
 	  ```cmd
-		  cd [/d] [<Laufwerk>:][<Pfad>]
-		  cd [..]
-		  chdir [/d] [<Laufwerk>:][<Pfad>]
-		  chdir [..]
+	  cd [/d] [<Laufwerk>:][<Pfad>]
+	  cd [..]
+	  chdir [/d] [<Laufwerk>:][<Pfad>]
+	  chdir [..]
 		```
 
 - ## CD Parameter
@@ -42,10 +42,10 @@ Man kann nach folgenden Sachen suchen:
 	- Zeigt eine Liste der Dateien und Unterverzeichnisse eines Verzeichnisses an
 	- ## Syntax:
 		- ```cmd
-			dir [<drive>:][<path>][<filename>] [...] [/p] [/q] [/w] [/d] [/a[[:]                 <attributes>]
-			[/o[[:]<sortorder>]] [/t[[:]<timefield>]] [/s] [/b] [/l] [/n] [/x] [/c]              [/4] [/r]
-		  ```
-
+			dir [<drive>:][<path>][<filename>] [...] [/p] [/q] [/w] [/d] [/a[[:] <attributes>]
+			[/o[[:]<sortorder>]] [/t[[:]<timefield>]] [/s] [/b] [/l] [/n] [/x] [/c] [/4] [/r]
+			```
+			
 - ## DIR Parameter:
 
 | **Parameter** | **Beschreibung**                                                                                 |
@@ -92,8 +92,8 @@ Man kann nach folgenden Sachen suchen:
 	- Sucht nach einer Textzeichenfolge in einer Datei oder Dateien und zeigt Textzeilen an, die die angegebenen Zeichenfolgen enthalten.`
 - ## find Syntax:`
 ```cmd
-	find [/v] [/c] [/n] [/i] [/off[line]] <"string">
-	[[<drive>:][<path>]<filename>[...]]
+find [/v] [/c] [/n] [/i] [/off[line]] <"string">
+[[<drive>:][<path>]<filename>[...]]
 ```
 
 ## find Parameter:
