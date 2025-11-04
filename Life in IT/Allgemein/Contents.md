@@ -1,5 +1,6 @@
 # Allgemein
 - Contents
+- [[Rules]]
 
 ---
 # IT
@@ -12,11 +13,13 @@
 ## Netzwerke
 - [[Einführung IT Sicherheit]]
 - [[Firewall]]
+- [[IP-Fire]]
 - [[IPv4]]
 - [[OSI Modell]]
 - [[Transport Layer]]
 ## Software Entwicklung
 - [[Git]]
+- [[Git Best Practices]]
 ## Windows 
 ### CMD und Powershell
 - [[CMD Befehle]]
@@ -49,5 +52,7 @@
 - [[Beendigung des Arbeitsverhältnisses]]
 - [[Bewerbungen]]
 ## Projekt Management
+- [[Auftragsstruktur]]
+### Dokumentation
 - [[Lastenheft]]
 - [[Pflichtenheft]]
