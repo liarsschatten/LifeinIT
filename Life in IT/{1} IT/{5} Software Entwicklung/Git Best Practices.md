@@ -6,5 +6,5 @@
 4.  **git commit** mit sinnvoller Message
 5.  **git checkout** in main
 6.  **git pull**
-7.  **git merge** mit dem feature branch.
+7.  **git merge** mit dem Feature-Branch.
 8.   **git push**
