@@ -1,9 +1,9 @@
 #Arbeit 
 # Allgemeines
-Ein Arbeitsvertrag wird zwischen zwei Personen geschlossen, Arbeitnehmer und Arbeitgeber **Vereinbaren ein Arbeitsverhältnis.** 
-Die Rechtliche Grundlage bildet das Bürgerliche Gesetzbuch BGB (§§ 611a ff.) sowie das Nachweisgesetz (NachwG).
+Ein Arbeitsvertrag wird zwischen zwei Personen geschlossen, Arbeitnehmer und Arbeitgeber **vereinbaren ein Arbeitsverhältnis.** 
+Die rechtliche Grundlage bildet das Bürgerliche Gesetzbuch (BGB) (§§ 611a ff.) sowie das Nachweisgesetz (NachwG).
 
-Der Arbeitsvertrag ist grundsätzlich formfrei, heißt er kann auch mündlich geschlossen werden. Das Nachweißgesetz gibt jedoch an, dass innerhalb eines Monats die wichtigsten Vertragsinhalte schriftlich festzuhalten, zu unterschreiben und dem Arbeitnehmer auszuhändigen sind.
+Der Arbeitsvertrag ist grundsätzlich formfrei, heißt er kann auch mündlich geschlossen werden. Das Nachweisgesetz gibt jedoch an, dass innerhalb eines Monats die wichtigsten Vertragsinhalte schriftlich festzuhalten, zu unterschreiben und dem Arbeitnehmer auszuhändigen sind.
 
 Dieser Nachweis muss die folgenden Punkte enthalten:
 - Name und Anschrift der Vertragspartner
