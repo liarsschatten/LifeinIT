@@ -9,10 +9,9 @@
 
 # Basics
 
-## Erklärung Bezeichnung
+## Erklärung Bezeichnung der Ordnerstruktur
 
-0 - 
-1-12 - Lernfelder 
+Die Bezeichnung der Ordner richtet sich nach den Themen, die innerhalb der Lernfelder behandelt wurden.
 
-## Umgang 
-
+0 - Wissen aus der Ausbildung
+1-12 - Lernfelder
