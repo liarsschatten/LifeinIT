@@ -1,8 +1,7 @@
 # Einführung
 Git ist ein Programm welches zur Versionierung verwendet wird.
 Versionierung bedeutet das jede einzelne Version des Entwicklungsfortschritts behalten wird.
-Des Weiteren werden alle Änderungen dokumentiert heißt es ist sofort ersichtlich was wann implementiert wurde.
-Das sorgt dafür dass die Fehler leichter ersichtlich sind.
+Des Weiteren werden alle Änderungen dokumentiert, heißt es ist ersichtlich was genau zu welchem Zeitpunkt implementiert oder abgewandelt wurde. Dadurch können mögliche Fehlerquellen leichter gefunden und 
 
 ---
 ## Erstellung
