@@ -10,9 +10,9 @@
 # Betriebssystem Installieren
 
 1. Wählen der präferierten Sprache
-2. Wähle die Version **Datacenter (mit grafischer Benutzeroberfläche)**
+2. Wähle die Version ``Datacenter (mit grafischer Benutzeroberfläche)``
 3. Akzeptieren Sie die Lizenzbedingungen und bestätigen Sie.
-4. Klicken Sie auf **Benutzerdefiniert**.
+4. Klicken Sie auf ``Benutzerdefiniert``.
 5. Einrichten der Partitionen und Auswählen von der gewünschten Windows-Partition
 6. Nach diesem Schritt muss der Rechner neu gestartet werden
 7. Einrichten des Kennwortes für das Administrator-Konto
@@ -24,11 +24,13 @@
 # Ersteinrichtung
 
 1. Navigieren sie in die Einstellungen unter System/Info
-2. Klicken sie auf **Computername ändern** -> Dies sollte immer der erste Schritt sein, da sonst gerne Probleme entstehen.
-3. Benennen sie den Computer mit einem möglichst eindeutigen Namen und melden Sie sich in der Domäne an.
-4. Danach kommt ein _wichtiger_ Schritt nämlich das erstellen eines **lokalen Admin** Kontos.
-5. Dazu begibt man sich in die Nutzerverwaltung und erstellt zunächst einen Nutzer, dem gibt man dann Administrator Rechte indem man ihn in die Gruppe Administratoren hinzufügt.
-6. Er kann einen beliebigen Namen haben, aber für Einheitlichkeit würde ich ihn admin nennen.
+	1. Klicken sie auf ``Erweiterte Systemeinstellungen`` 
+	2. Wechseln sie zum Reiter ``Computer Name`` und klicken sie auf ``Computername Ändern`` 
+		-> Dies sollte immer der erste Schritt sein, da sonst gerne Probleme entstehen.
+2. Benennen sie den Computer mit einem möglichst eindeutigen Namen und melden Sie sich in der Domäne an.
+3. Danach kommt ein _wichtiger_ Schritt nämlich das erstellen eines **lokalen Admin** Kontos.
+4. Dazu begibt man sich in die Nutzerverwaltung und erstellt zunächst einen Nutzer, dem gibt man dann Administrator Rechte indem man ihn in die Gruppe Administratoren hinzufügt.
+5. Er kann einen beliebigen Namen haben, aber für Einheitlichkeit würde ich ihn admin nennen.
 
 ---------------------------------------------------
 # Windows Server Interface
@@ -36,8 +38,8 @@
 ## Manage
 
 Hier fügt man neue Features hinzu. Beispielsweise:
-- DNS
-- Hyper V
+- [[Hyper V]]
+- [[Domain Controller]]
 - Administrative Domain und User Services
 ## Tools
 
