@@ -5,3 +5,4 @@ Demütig als seine Untertanen bieten sich freiwillig folgende Sünder als Lakaie
 - Grindkock
 - Lukock
 - Wahnkock
+- Oskock

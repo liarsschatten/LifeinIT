@@ -20,15 +20,15 @@ Dieser Nachweis muss die folgenden Punkte enthalten:
 
 # Pflichten
 ## Arbeitgeber
-Der Arbeitnehmer muss im Rahmen der Vereinbarung beschäftigt werden. 
-Er muss das festgelegte Gehalt pünktlich und vollständig auszahlen.
-Er muss dafür sorgen dass der Arbeitsschutz eingehalten wird.
-Er muss die Sozialbeiträge bezahlen.
-Nach Ende des Arbeitsverhältnisses muss er ein Arbeitszeugnis ausstellen.
+- Der Arbeitnehmer muss im Rahmen der Vereinbarung beschäftigt werden. 
+- Er muss das festgelegte Gehalt pünktlich und vollständig auszahlen.
+- Er muss dafür sorgen dass der Arbeitsschutz eingehalten wird.
+- Er muss die Sozialbeiträge bezahlen.
+- Nach Ende des Arbeitsverhältnisses muss er ein Arbeitszeugnis ausstellen.
 ## Arbeitnehmer
-Vereinbarte Leistung erbringen.
-Arbeitsanweisungen folgen.
-Die übertragene Arbeit ist sorgfältig auszuführen.
-Er hat die Betriebsgeheimnisse zu wahren.
-Er hat sich ans Wettbewerbsverbot zu halten.
+- Vereinbarte Leistung erbringen.
+- Arbeitsanweisungen folgen.
+- Die übertragene Arbeit ist sorgfältig auszuführen.
+- Er hat die Betriebsgeheimnisse zu wahren.
+- Er hat sich ans Wettbewerbsverbot zu halten.
 

@@ -17,8 +17,11 @@ Die Adresslänge beträgt 32 Bit, diese werden in 4 Oktette unterteilt. Jedes Ok
 ### IPv6
 Die  Adresslänge beträgt 128 Bit, diese bestehen aus 8 Blöcken bestehend aus jeweils 4 Hexa-Dezimal-Zahlen.
 ## Layer 4
-Der **Transport Layer** nutzt die Protokolle TCP und UDP, um das Datenpaket dem richtigen Dienst zuzuordnen. Die Daten werden in einem Segment als Header dem Datenpaket angefügt. TCP.Segmente haben zusätzlich einige eingebaute Sicherheitsfunktionen, um fehlerhafte Übertragungen zu verhindern, außerdem wird ein Handshake durchgeführt, heißt, es wird eine Verbindung hergestellt, welche Übertragungsfehler verhindern soll.
-Dieser Layer wird von Paketfiltern genutzt, um unerwünschte Zugriffe zu blockieren. 
+Der **Transport Layer** nutzt die Protokolle TCP und UDP, um das Datenpaket dem richtigen Dienst zuzuordnen. Die Daten werden in einem Segment als Header dem Datenpaket angefügt. TCP-Segmente haben zusätzlich einige eingebaute Sicherheitsfunktionen, um fehlerhafte Übertragungen zu verhindern, außerdem wird ein Handshake durchgeführt, heißt, es wird eine Verbindung hergestellt, welche Übertragungsfehler verhindern soll.
+
+(Wie funktioniert der Handshake? Tendenziell relevant lol)
+
+Dieser Layer wird von Paketfiltern genutzt, um unerwünschte Zugriffe zu blockieren. (wie? Genaue Beschreibung, oder erstmal ein warum)
 
 ---
 ## Layer 5
