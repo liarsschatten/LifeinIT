@@ -1,6 +1,6 @@
 #Windows-Befehle  
 #Windows 
-## Erklärung
+# Erklärung
 - Eine **Batch-Datei (.bat oder .cmd)** ist ein Skript für die Windows-Eingabeaufforderung (CMD). 
 Damit kannst du Abläufe **automatisieren**, z. B.:
 - Benutzer anlegen oder löschen
@@ -8,7 +8,7 @@ Damit kannst du Abläufe **automatisieren**, z. B.:
 - Backups ausführen
 - Logs schreiben
 - Dienste starten/stoppen
-## Grundaufbau
+# Grundaufbau
 Eine Batch-Datei kann mit jedem Texteditor (z. B. Notepad) erstellt werden. Speichere sie anschließend mit der Endung `.bat`, z. B. `meinScript.bat`.
 ```cmd
 @echo off
@@ -19,7 +19,7 @@ pause
 - **`echo`** → gibt Text in der Konsole aus.
 - **`pause`** → wartet auf eine Taste, bevor das Skript fortfährt.
 
-## Wichtige Befehle
+# Wichtige Befehle
 
 | Befehl  | Bedeutung                   |
 | ------- | --------------------------- |
@@ -37,14 +37,14 @@ pause
 | `set`   | Variable setzen             |
 | `call`  | Andere Batch-Datei aufrufen |
 | `exit`  | Skript beenden              |
-## Variablen erstellen
+# Variablen erstellen
 ```cmd
 set name=Lisa
 echo Hallo %name%!
 ```
 
 **`set name`**  = Erstellt eine Variable namens **`name`**  und weißt ihm ein Wert zu
-## Benutzereingabe:
+# Benutzereingabe:
 
 ```cmd
 set /p name=Wie heißt du? 
@@ -53,7 +53,7 @@ echo Hallo %name%!
 
 **`set /p`** = Fragt den Benutzer nach einer Eingabe und speichert die in der Variable
 **`echo`** = Ausgabe auf CMD(wie z.B. print, System.out.println())
-## Schleifen und Bedingungen
+# Schleifen und Bedingungen
 ```cmd
 @echo off
 echo Dateien im aktuellen Ordner:

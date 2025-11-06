@@ -35,17 +35,16 @@ Man kann nach folgenden Sachen suchen:
 | `a[[:] ]`  | Zeigt nur Dateien/Verzeichnisse mit bestimmten Attributen* |
 | `/o[[:] ]` | Sortiert nach Kombinationen von `n`, `e`, `g`, `s`, `d`*   |
 
-- # CLS (Clear)
-	- Löscht das Eingabeaufforderungsfenster
-
-- # DIR(Directory)
-	- Zeigt eine Liste der Dateien und Unterverzeichnisse eines Verzeichnisses an
-	- ## Syntax:
+# CLS (Clear)
+- Löscht das Eingabeaufforderungsfenster
+# DIR(Directory)
+- Zeigt eine Liste der Dateien und Unterverzeichnisse eines Verzeichnisses an
+## Syntax:
 ```cmd
 dir [<drive>:][<path>][<filename>] [...] [/p] [/q] [/w] [/d] [/a[[:] <attributes>][/o[[:]<sortorder>]] [/t[[:]<timefield>]] [/s] [/b] [/l] [/n] [/x] [/c] [/4] [/r]
 ```
 			
-- ## DIR Parameter:
+## DIR Parameter:
 
 | **Parameter** | **Beschreibung**                                                                                 |
 | ------------- | ------------------------------------------------------------------------------------------------ |
@@ -87,9 +86,9 @@ dir [<drive>:][<path>][<filename>] [...] [/p] [/q] [/w] [/d] [/a[[:] <attributes
 | `/b`          | Beendet das aktuelle Batchskript |
 | `<exitcode>`  | Gibt eine numerische Zahl an.    |
 
-- # find
-	- Sucht nach einer Textzeichenfolge in einer Datei oder Dateien und zeigt Textzeilen an, die die angegebenen Zeichenfolgen enthalten.`
-- ## find Syntax:`
+# find
+- Sucht nach einer Textzeichenfolge in einer Datei oder Dateien und zeigt Textzeilen an, die die angegebenen Zeichenfolgen enthalten.`
+## find Syntax:`
 ```cmd
 find [/v] [/c] [/n] [/i] [/off[line]] <"string">
 [[<drive>:][<path>]<filename>[...]]
@@ -178,33 +177,33 @@ shutdown [/i | /l | /s | /sg | /r | /g | /a | /p | /h | /e | /o]
 
 # sort
 - Liest Eingaben, sortiert Daten und schreibt die Ergebnisse auf den Bildschirm, in eine Datei oder auf ein anderes Gerät.
-- ## sort Syntax
-	- ```cmd
-	  sort [/r] [/+<N>] [/m <kilobytes>] [/l <locale>] [/rec <characters>]
-	  [[<drive1>:][<path1>]<filename1>] [/t [<drive2>:][<path2>]] [/o [<drive3>:]
-	  [<path3>]<filename3>]
-	  ```
+ ## sort Syntax
+```cmd
+sort [/r] [/+<N>] [/m <kilobytes>] [/l <locale>] [/rec <characters>]
+[[<drive1>:][<path1>]<filename1>] [/t [<drive2>:][<path2>]] [/o [<drive3>:]
+[<path3>]<filename3>]
+```
 ## sort Parameter
 
-| Parameter                            | Description                                                                                                                                                                                                                                           |
-| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `/r`                                 | Umkehrt die Sortierreihenfolge (d. a. sortiert von Z zu A und von 9 bis 0).                                                                                                                                                                           |
-| `/+<N>`                              | Gibt die Nummer der Zeichenposition an, an der **die Sortierung** bei jedem Vergleich beginnt. _N_ kann eine beliebige gültige ganze Zahl sein.                                                                                                       |
-| `/m<kilobytes>`                      | Gibt die Menge an Arbeitsspeicher an, die für die Sortierung in Kilobyte (KB) verwendet werden soll.                                                                                                                                                  |
-| `/l <Gebietsschema->`                | Überschreibt die Sortierreihenfolge von Zeichen, die durch das Standardgebietsschema des Systems definiert werden (d. a. die Sprache und das Land/die Region, die während der Installation ausgewählt sind).                                          |
-| `/Rec <characters>`                  | Gibt die maximale Anzahl von Zeichen in einem Datensatz oder einer Zeile der Eingabedatei an (der Standardwert ist 4.096 und der Maximalwert beträgt 65.535).                                                                                         |
-| `[<drive1>:][<path1>]<filename1>`    | Gibt die zu sortierende Datei an. Wenn kein Dateiname angegeben ist, wird die Standardeingabe sortiert. Die Angabe der Eingabedatei ist schneller als das Umleiten derselben Datei wie die Standardeingabe.                                           |
-| `/t [<drive2>:][<path2>]`            | Gibt den Pfad des Verzeichnisses an, in dem der Arbeitsspeicher des **Sortierbefehls** gespeichert werden soll, wenn die Daten nicht in den Hauptspeicher passen. Standardmäßig wird das temporäre Systemverzeichnis verwendet.                       |
-| `/o [<drive3>:][<path3>]<filename3>` | Gibt die Datei an, in der die sortierte Eingabe gespeichert werden soll. Wenn nicht angegeben, werden die Daten in die Standardausgabe geschrieben. Die Angabe der Ausgabedatei ist schneller als das Umleiten der Standardausgabe an dieselbe Datei. |
-| `/unique`                            | Gibt nur eindeutige Ergebnisse zurück.|                                                                                                                                                                                                                                                                                                                                         
+| Parameter                            | Description                                                                                                                                                                                                                                           |     |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| `/r`                                 | Umkehrt die Sortierreihenfolge (d. a. sortiert von Z zu A und von 9 bis 0).                                                                                                                                                                           |     |
+| `/+<N>`                              | Gibt die Nummer der Zeichenposition an, an der **die Sortierung** bei jedem Vergleich beginnt. _N_ kann eine beliebige gültige ganze Zahl sein.                                                                                                       |     |
+| `/m<kilobytes>`                      | Gibt die Menge an Arbeitsspeicher an, die für die Sortierung in Kilobyte (KB) verwendet werden soll.                                                                                                                                                  |     |
+| `/l <Gebietsschema->`                | Überschreibt die Sortierreihenfolge von Zeichen, die durch das Standardgebietsschema des Systems definiert werden (d. a. die Sprache und das Land/die Region, die während der Installation ausgewählt sind).                                          |     |
+| `/Rec <characters>`                  | Gibt die maximale Anzahl von Zeichen in einem Datensatz oder einer Zeile der Eingabedatei an (der Standardwert ist 4.096 und der Maximalwert beträgt 65.535).                                                                                         |     |
+| `[<drive1>:][<path1>]<filename1>`    | Gibt die zu sortierende Datei an. Wenn kein Dateiname angegeben ist, wird die Standardeingabe sortiert. Die Angabe der Eingabedatei ist schneller als das Umleiten derselben Datei wie die Standardeingabe.                                           |     |
+| `/t [<drive2>:][<path2>]`            | Gibt den Pfad des Verzeichnisses an, in dem der Arbeitsspeicher des **Sortierbefehls** gespeichert werden soll, wenn die Daten nicht in den Hauptspeicher passen. Standardmäßig wird das temporäre Systemverzeichnis verwendet.                       |     |
+| `/o [<drive3>:][<path3>]<filename3>` | Gibt die Datei an, in der die sortierte Eingabe gespeichert werden soll. Wenn nicht angegeben, werden die Daten in die Standardausgabe geschrieben. Die Angabe der Ausgabedatei ist schneller als das Umleiten der Standardausgabe an dieselbe Datei. |     |
+| `/unique`                            | Gibt nur eindeutige Ergebnisse zurück.                                                                                                                                                                                                                |     |
 
 # taskkill
 - Beendet eine oder mehrere Aufgaben oder Prozesse. Prozesse können nach Prozess-ID oder Imagename beendet werden. Mit dem [Befehl tasklist](https://learn.microsoft.com/de-de/windows-server/administration/windows-commands/tasklist) können Sie die Prozess-ID (PID) für den zu beendenden Prozess ermitteln.
-- ## taskkill Syntax
-- ```cmd
+## taskkill Syntax
+```cmd
   taskkill [/s <computer> [/u [<domain>\]<username> [/p [<password>]]]] {[/fi 
   <filter>] [...] [/pid <processID> | /im <imagename>]} [/f] [/t]
-  ```
+```
 
 ## taskkill Parameter
 | Parameter                | Description                                                                                                                                                                                                                                                                                                                                                                                                          |
