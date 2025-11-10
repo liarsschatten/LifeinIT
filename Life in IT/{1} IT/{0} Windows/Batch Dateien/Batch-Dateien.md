@@ -9,7 +9,7 @@ Damit kannst du Abläufe **automatisieren**, z. B.:
 - Logs schreiben
 - Dienste starten/stoppen
 # Grundaufbau
-Eine Batch-Datei kann mit jedem Texteditor (z. B. Notepad) erstellt werden. Speichere sie anschließend mit der Endung `.bat`, z. B. `meinScript.bat`.
+Eine Batch-Datei kann mit jedem Texteditor (z. B. Notepad) erstellt werden. Speichere sie anschließend mit der Endung `.bat`, z. B. `meinSkript.bat`.
 ```cmd
 @echo off
 echo Hallo! Dies ist mein erstes Batch-Skript.
@@ -43,7 +43,7 @@ set name=Lisa
 echo Hallo %name%!
 ```
 
-**`set name`**  = Erstellt eine Variable namens **`name`**  und weißt ihm ein Wert zu
+**`set name`**  = Erstellt eine Variable namens **`name`**  und weist ihm ein Wert zu
 # Benutzereingabe:
 
 ```cmd
@@ -52,7 +52,7 @@ echo Hallo %name%!
 ```
 
 **`set /p`** = Fragt den Benutzer nach einer Eingabe und speichert die in der Variable
-**`echo`** = Ausgabe auf CMD(wie z.B. print, System.out.println())
+**`echo`** = Ausgabe auf CMD (wie z. B. print, System.out.println())
 # Schleifen und Bedingungen
 ```cmd
 @echo off
