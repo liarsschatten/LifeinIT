@@ -21,14 +21,24 @@ Dieser Nachweis muss die folgenden Punkte enthalten:
 # Pflichten
 ## Arbeitgeber
 - Der Arbeitnehmer muss im Rahmen der Vereinbarung beschäftigt werden. 
+	- Beschäftigungspflicht
 - Er muss das festgelegte Gehalt pünktlich und vollständig auszahlen.
+	- Vergütungspflicht
 - Er muss dafür sorgen dass der Arbeitsschutz eingehalten wird.
 - Er muss die Sozialbeiträge bezahlen.
+	- Fürsorgepflicht
 - Nach Ende des Arbeitsverhältnisses muss er ein Arbeitszeugnis ausstellen.
+	- Zeugnispflicht
 ## Arbeitnehmer
 - Vereinbarte Leistung erbringen.
+	- Leistungspflicht
 - Arbeitsanweisungen folgen.
+	- Gehorsamspflicht
 - Die übertragene Arbeit ist sorgfältig auszuführen.
+	- Sorgfaltspflicht
 - Er hat die Betriebsgeheimnisse zu wahren.
+	- Schweigepflicht
 - Er hat sich ans Wettbewerbsverbot zu halten.
-
+	- Wettbewerbsverbot
+- Der Arbeitnehmer hat seinem Arbeitnehmer im Rahmen der Arbeit Treu zu sein
+	- Treuepflicht
