@@ -5,8 +5,6 @@
    Hier wird Code eingetragen
    ```
 
-
-
 # Basics
 
 ## Erklärung Bezeichnung der Ordnerstruktur

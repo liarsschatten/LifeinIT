@@ -5,21 +5,21 @@ Versionierung bedeutet, dass jede einzelne Version des Entwicklungsfortschritts 
 Des Weiteren werden alle Änderungen dokumentiert, heißt, es ist ersichtlich, was genau zu welchem Zeitpunkt implementiert oder abgewandelt wurde. Dadurch können mögliche Fehlerquellen leichter gefunden und korrigiert werden.
 
 ---
-## Erstellung
+# Erstellung
 
-### Globale Einstellungen
+## Globale Einstellungen
 
-### Init
+## Init
 Erstellen eines lokalen Git-Repositorys.
 ```
 git init
 ```
-### Clone
+## Clone
 Man kann auch ein Remote-Repository in ein lokales Repository klonen.
 ```
 git clone
 ```
-## Staging Area
+# Staging Area
 Die _Staging Area_ ist der Bereich, wo Dateien hervorgehoben werden, welche in den nächsten Commit gehören.
 Fügt alle Dateien der _Staging Area_ hinzu.
 ```
@@ -29,11 +29,11 @@ Fügt eine ausgewählte Datei der _Staging Area_ hinzu.
 ```
 git add "File Name"
 ```
-### Dateien ignorieren
+## Dateien ignorieren
 **.gitignore**
 Das ist eine Datei, welche die Namen von Dateien und Ordner enthält, die beim nächsten Commit ausgelassen werden.
 
-## Commit
+# Commit
 ```
 git commit -m "Commit Kommentar"
 ```
@@ -42,7 +42,7 @@ Ein Commit ist ein Punkt in der Versionshistorie, zu dem man jederzeit zurücksp
 Ein Commit enthält:
 - Alle Änderungen die der _Staging Area_ seit dem letzten Commit hinzugefügt wurden
 - Den Kommentar: Er sollte kurz und knapp die Änderungen beschreiben
-## Branches
+# Branches
 Ein Branch ist ein Abzweig vom Hauptcode, in welchem man experimentieren kann, ohne den Hauptcode zu beeinflussen.
 Dieses Feature wird vor allem wichtig, wenn man mit mehreren Personen an einem Projekt arbeitet.
 Branch erstellen.
@@ -57,7 +57,7 @@ git checkout Branchname
 Dann kann man in dem Branch losarbeiten.
 
 ---
-## Merge und Rebase
+# Merge und Rebase
 Wenn man dann das Feature fertig hat, will man das Feature wieder in den Main Branch einpflegen. Dafür nutzt man den Merge-Befehl.
 bringt dich zurück in den Main Branch.
 ```
@@ -74,22 +74,22 @@ git rebase
 Good Practices
 Grundsätzlich gehört es sich für jedes Feature, einen neuen Branch zu erstellen und diesen dann in den Main Branch zu mergen.
 Das ist besonders wichtig, wenn man mit gemeinsam mit anderen an einem Projekt arbeitet.
-## Remote-Repository
+# Remote-Repository
 Ein Remote-Repository ist an sich nur eine Kopie des aktuellen Stands, die woanders aufbewahrt wird.
-### Remote Hinzufügen
+## Remote Hinzufügen
 In diesem Schritt fügt man ein Remote-Repository hinzu.
 ```
 git remote add "link"
 ```
 Danach fragt git nach dem Username, da gibt man seinen Username an.
 Zuletzt will Git noch ein Passwort. Wichtig: Hier geht es nicht um das Account-Passwort, sondern um einen generierten Schlüssel.
-### Push
+## Push
 Lädt alle Commits des aktuellen Branch ins Remote-Repository hoch.
 ```
 git push
 ```
 Alternativ muss man hinter dem Push mit einem Leerzeichen getrennt das Repository angeben, wenn man mehrere Repositorys eingepflegt hat.
-### Fetch und Pull
+## Fetch und Pull
 Git Fetch zieht sich die gesamte Historie des Remote-Repositories.
 ```
 git fetch
