@@ -3,7 +3,9 @@
 ```powershell
 # Computername ändern
 Rename-Computer -NewName "DC01" -Restart
+```
 
+```powershell
 #Statische IP setzen
 netsh interface ipv4 show interfaces #Zeigt alle Netzwerkadapter
 netsh interfaces ipv4 set address name"Ethernet" static 192.168.1.2 255.255.255.0  192.168.1.1
@@ -15,6 +17,7 @@ Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 Install-ADDSForest -DomainName "firma.local" -DomainNetbiosName "FIRMA" -InstallDns
 # Wirst nach Kennwort gefragt (DSRM-Kennwort (Domain Services Restore Mode))
 ```
+
 # DC auf Funktion überprüfen
 ```powershell
 # Nach Neustart überprüfen, ob DC korrekt eingerichtet ist
