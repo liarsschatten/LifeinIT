@@ -37,3 +37,9 @@ Im ersten Schritt, klicken Sie im Hauptmenü von Hyper-V unter der Kategorie `Ak
 - Im nächsten Schritt, kann die VM einem **Netzwerk** hinzugefügt werden. Wenn zuvor ein virtueller Switch erstellt wurde, kann dieser hier nun ausgewählt werden.
 - Im fünften Schritt wird eine virtuelle Festplatte zugewiesen. I.d.R. kann hier die voreingestellte Einstellung genutzt werden. 
 - Zuletzt gibt man an welches Betriebssystem man verwenden möchte. Hier kann eine ISO von dem zu installierenden System auswählen.
+# Daten von Hostrechner zur VM verschieben
+
+Auf dem Hostrechner sollte man als erstes einen Ordner erstellen.
+Dann sollte man den Ordner im Netzwerk freigeben.
+Daraufhin sollte man in die VM gehen und den Ordner einbinden.
+Hier benötigt man die Host Benutzerdaten.

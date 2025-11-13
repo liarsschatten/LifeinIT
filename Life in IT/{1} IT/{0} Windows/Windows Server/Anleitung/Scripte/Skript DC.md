@@ -7,7 +7,7 @@ Rename-Computer -NewName "DC01" -Restart
 ```powershell
 #Statische IP setzen
 netsh interface ipv4 show interfaces #Zeigt alle Netzwerkadapter
-netsh interfaces ipv4 set address name"Ethernet" static 192.168.1.2 255.255.255.0  192.168.1.1
+netsh interface ipv4 set address name="Ethernet" static 192.168.1.2 255.255.255.0  192.168.1.1
 
 # Installation Active Directory Domain Services
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
