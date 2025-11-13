@@ -4,7 +4,6 @@
 Rename-Computer -NewName "DC01" -Restart
 ```
 # DC nur mit Powershell einrichten
-
 ```powershell
 #Statische IP setzen
 netsh interface ipv4 show interfaces #Zeigt alle Netzwerkadapter
@@ -15,8 +14,9 @@ Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 
 # Installation Forest (firma.local ist der Beispielhafte Domainname)
 Install-ADDSForest -DomainName "firma.local" -DomainNetbiosName "FIRMA" -InstallDns
-# Wirst nach Kennwort gefragt (DSRM-Kennwort (Domain Services Restore Mode))
+# Kennwortabfrage (DSRM-Kennwort (Domain Services Restore Mode))
 ```
+
 # DC auf Funktion überprüfen
 ```powershell
 # Nach Neustart überprüfen, ob DC korrekt eingerichtet ist
