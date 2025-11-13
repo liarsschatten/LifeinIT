@@ -1,9 +1,11 @@
-# DC nur mit Powershell einrichten
-
+# Computer Namen ändern
 ```powershell
 # Computername ändern
 Rename-Computer -NewName "DC01" -Restart
+```
+# DC nur mit Powershell einrichten
 
+```powershell
 #Statische IP setzen
 netsh interface ipv4 show interfaces #Zeigt alle Netzwerkadapter
 netsh interfaces ipv4 set address name"Ethernet" static 192.168.1.2 255.255.255.0  192.168.1.1
