@@ -16,21 +16,22 @@
 	6. Neustarten auswählen
 
 ---
-## Initial Konfiguration
+# Initial Konfiguration
 1. Tastatur Layout einstellen
-	1. Zeitzone angeben
-	2. Hostname einstellen
-	3. Dann muss man die Domain angeben für eine Lokale Domäne: localdomain
-	4. Root Passwort festlegen
-	5. Webadmin Passwort festlegen 
+2. Zeitzone angeben
+3. Hostname einstellen
+4. Dann muss man die Domain angeben für eine Lokale Domäne: localdomain
+5. Root Passwort festlegen
+6. Webadmin Passwort festlegen 
 
 ---
-## Netzwerk Konfiguration einstellen
+# Netzwerk Konfiguration einstellen
 1. Typ der Netzwerk Konfiguration = GREEN RED ORANGE
 2. Netzwerkkartenzuordnung: hier muss man die Typen von eben den Netzwerk Adaptern zuordnen
 3. Adresseinstellungen: hier muss man die Internen IP-Adressen einstellen für die separaten Netzwerke (die Netzadapter sind quasi der Switch in der Virtuellen Umgebung) 
 	1. RED erhält DHCP weil es die Verbindung ins Internet ist und wir in einem internen Netzwerk sind und er dann beim Router eine IP Adresse anfragt
-	2. ORANGE ist die DMZ wichig ist hier das das Netzwerk einen anderen Netzteil hat als GREEN was das interne Netzwerk ist damit sie nicht direkt miteinander kommunizieren können
+	2. ORANGE ist die DMZ wichig ist hier das das Netzwerk einen anderen Netzteil hat als 
+	3. GREEN was das interne Netzwerk ist damit sie nicht direkt miteinander kommunizieren können
 4. Danach muss man den DHCP Server konfigurieren
 	1. Den dynamischen Adressraum angeben 
 	2. Den DNS Server angeben

@@ -3,11 +3,14 @@
 Ports sind eine Programmadresse, welche auf Ebene 4 des OSI-Modells eingesetzt wird.
 Sie sagen aus, an welches Programm das Paket gehen soll.  
 # UDP
-UDP ist ein Übertragungsprotokoll, welches hauptsächlich eingesetzt wird, um Videocalls und Live-Streams zu übertragen. Der UDP-Header ist relativ kurz, er besteht nämlich nur aus Quell-Port (Angabe von welchem Programm gesendet wurde), Ziel-Port (Angabe welches Programm angesprochen wird), Länge des Headers (Gibt an wo die Daten beginnen) und der Checksumme. 
-Die Checksumme besteht aus 16 Bit und wird fast immer mitgesendet, wenn man keine Checksumme haben möchte, muss sie auf 0 gesetzt sein.
+**UDP** ist ein **Übertragungsprotokoll**, welches hauptsächlich eingesetzt wird, um **schnell** Daten zu übertragen, bei denen es **nicht entscheidend ist**, dass sie **vollständig und fehlerfrei** ankommen – wie zum Beispiel bei **Video-Calls** oder **Live-Streams**. Der **UDP-Header** ist **relativ kurz**, er besteht nämlich nur aus dem **Quell-Port** (Angabe, von welchem Programm gesendet wurde), dem **Ziel-Port** (Angabe, welches Programm angesprochen wird), der **Länge des Headers** (gibt an, wo die eigentlichen Daten beginnen) und der **Checksumme**. Die **Checksumme** besteht aus **16 Bit** und wird **meistens mitgesendet**, um Übertragungsfehler zu erkennen. Wenn **keine Checksumme** verwendet werden soll, **muss sie auf 0 gesetzt** werden.
 
 ![[UDP Header.png]]
 # TCP
+TCP ist ein Übertragungsprotokoll, das vor allem eingesetzt wird, wenn eine **zuverlässige und geordnete Datenübertragung** wichtig ist – zum Beispiel beim **Abrufen von Webseiten**, **E-Mails** oder **Dateidownloads**.  
+Im Gegensatz zu UDP stellt TCP sicher, dass **keine Daten verloren gehen** und **in der richtigen Reihenfolge** ankommen. Dafür ist der TCP-Header deutlich umfangreicher.
+
+TCP baut **vor der Übertragung eine Verbindung auf**, überprüft kontinuierlich die Daten und sendet verlorene Pakete erneut – dadurch ist es **langsamer als UDP**, aber **deutlich zuverlässiger**.
 
 ![[TCP Header.png]]
 ## Meist genutzte Ports
