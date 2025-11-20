@@ -1,6 +1,6 @@
 # Lichtwellenleiter (LWL)
 ## Definition
-**LWL (Lichtwellenleiter)** ist ein Kabel, das **Licht statt elektrische Signale** benutzt, um Daten zu übertragen. Es ermöglicht **sehr hohe Datenraten und große Entfernungen**.
+**LWL (Lichtwellenleiter)** sind Kabel, die **Licht statt elektrische Signale** benutzt, um Daten zu übertragen. Es ermöglicht **sehr hohe Datenraten und die Überwindung großer Entfernungen**.
 ## Aufbau
 ![[glasfaserkabel-aufbau.jpg| 700]]
 Ein typisches LWL-Kabel besteht aus mehreren Schichten:

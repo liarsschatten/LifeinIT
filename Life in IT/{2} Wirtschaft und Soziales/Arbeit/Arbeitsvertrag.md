@@ -6,7 +6,7 @@ Die rechtliche Grundlage bildet das Bürgerliche Gesetzbuch (BGB) (§§ 611a ff.
 Der Arbeitsvertrag ist grundsätzlich formfrei, heißt er kann auch mündlich geschlossen werden. Das Nachweisgesetz gibt jedoch an, dass innerhalb eines Monats die wichtigsten Vertragsinhalte schriftlich festzuhalten, zu unterschreiben und dem Arbeitnehmer auszuhändigen sind.
 
 Dieser Nachweis muss die folgenden Punkte enthalten:
-- Name und Anschrift der Vertragspartner
+- **Name** und **Anschrift der** Vertragspartner
 - Beginn und Ende des Arbeitsverhältnisses
 - **Arbeitsort,** oder Hinweis, dass der Arbeitnehmer an verschiedenen Orten tätig sein kann
 - Beschreibung der Arbeit

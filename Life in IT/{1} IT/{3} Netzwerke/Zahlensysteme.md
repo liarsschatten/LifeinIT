@@ -1,0 +1,11 @@
+
+# Dezimal
+
+
+# Binär
+
+
+# Hexadezimal
+
+
+
