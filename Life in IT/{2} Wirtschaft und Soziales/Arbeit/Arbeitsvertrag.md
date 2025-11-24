@@ -20,7 +20,7 @@ Dieser Nachweis muss die folgenden Punkte enthalten:
 
 # Pflichten
 ## Arbeitgeber
-- Der Arbeitnehmer muss im Rahmen der Vereinbarung beschäftigt werden. 
+- Der Arbeitnehmer muss im Rahmen der Vereinbarung beschäftigt werden. --
 	- Beschäftigungspflicht
 - Er muss das festgelegte Gehalt pünktlich und vollständig auszahlen.
 	- Vergütungspflicht
