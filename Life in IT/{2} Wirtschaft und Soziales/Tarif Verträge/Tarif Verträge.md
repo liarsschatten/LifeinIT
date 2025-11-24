@@ -23,7 +23,7 @@ Vertragspartner dürfen ohne Einmischung der Staatsgewalt die Verträge aushande
 ## Tarifbindung
 Der Tarifvertrag ist nur bindend wenn beide Vertragspartner tarifgebunden sind. Ansonsten ist es lediglich eine Empfehlung. In dem Fall kann auch zu Ungunsten des Arbeitnehmers beschlossen werden.
 ## Günstigkeitsprinzip
-Von den Tarifverträgen darf nur zugunsten des Arbeitnehmers abgewichen werden.
+Von den Tarifverträgen und den Betriebsvereinbarungen darf nur zugunsten des Arbeitnehmers abgewichen werden.
 ## Allgemeinverbindlichkeit
 Ein Tarifvertrag kann vom Bundesminister für allgemeinverbindlich erklärt werden, dann gilt er für alle Teilnehmer der Branche verbindend.
 ## Friedenspflicht

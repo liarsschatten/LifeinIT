@@ -10,7 +10,7 @@ Dieser Nachweis muss die folgenden Punkte enthalten:
 - Beginn und Ende des Arbeitsverhältnisses
 - **Arbeitsort,** oder Hinweis, dass der Arbeitnehmer an verschiedenen Orten tätig sein kann
 - Beschreibung der Arbeit
-- Vollständige Beschreibung des Arbeitsentgeltes
+- Vollständige Beschreibung des Arbeitsentgeltes (Lohn bei Industrie Betrieben, Gehalt bei Dienstleistungen)
 - Die vereinbarte Arbeitszeit
 - Der vereinbarte Jahresurlaub
 - Dauer der Probezeit
