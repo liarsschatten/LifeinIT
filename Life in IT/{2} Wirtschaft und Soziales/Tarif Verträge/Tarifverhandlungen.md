@@ -6,6 +6,15 @@ Wenn der Vorschlag des Schlichters abgelehnt wird findet die Urabstimmung über 
 Danach beginnen erneut Verhandlungen dort findet man einen Kompromiss bei 25% dafür findet eine neue Urabstimmung statt. Unter dem Umstand der Einigung der Tarifkommissionen.
 ## Streik
 Kampfmaßnahme der Arbeitnehmer. Beschreibt die gemeinsame Arbeitniederlegung.
+### Schwerpunktstreik
+Hier streikt nur eine Teil einer Branche 
+### Warnstreik
+
+### Generalstreik 
+
+### Totaler Streik
+
+### Wilder Streik
 
 ## Aussperrung
 Kampfmaßnahme der Arbeitgeber. Beschreibt die vorübergehende Aufhebung der Arbeitsverhältnisse aller Arbeitnehmer. Hier gilt der Grundsatz der Verhältnismäßigkeit.
