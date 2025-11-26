@@ -27,7 +27,7 @@ Diese Kombination sorgt für eine Entlastung des ALGs, weil falsch adressierte P
 ## Einführung
 Ausfallsicherheit ist ein wichtiges Thema in der IT-Infrastruktur.
 Es geht dabei darum, sicherzustellen, dass wichtige Infrastruktur keine Totalausfälle hat.
-Es wird auch Redugit brancndanz genannt
+Es wird auch Redundanz genannt.
 ## Passive Redundanz
 Bedeutet, dass ein Ersatz bereitsteht, um zu übernehmen, wenn der erste ausfällt
 ## Aktive Redundanz
