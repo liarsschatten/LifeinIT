@@ -22,9 +22,12 @@ TCP baut **vor der Übertragung eine Verbindung auf**, überprüft kontinuierlic
 - 67 - DHCP: Dynamic Host Configuration Protocol Server Side
 - 68 - DHCP: Dynamic Host Configuration Protocol Client Side
 - 80 - HTTP: Hyper Text Transfer Protocol
+- 88 - Kerberos: Vertrauensstellung zwischen Microsoft Diensten
 - 110 - POP3: Post Office Protocol
 - 389 - LDAP: Lightweight Directory Access Protocol
 - 443 - HTTPS: Hypertext Transfer Protocol Secure
 - 445 - SMB: Server Message Block
+- 464 - Kerberos Passwörter: Austausch von Passwort Informationen
+- 636 - Sicheres LDAP verwendet TLS/SSL
 - 3306 - MySQL und MariaDB
 - 3389 - RDP: Microsoft Terminal Server
