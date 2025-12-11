@@ -3,7 +3,7 @@
 
 
 # Binär
-
+2
 
 # Hexadezimal
 
