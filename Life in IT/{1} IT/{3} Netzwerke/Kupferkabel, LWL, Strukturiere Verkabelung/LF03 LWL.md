@@ -29,7 +29,7 @@ Ein typisches LWL-Kabel besteht aus mehreren Schichten:
 
 1. **Multimode-Faser (MMF):**
     - Kern größer (~50–62,5 μm).
-    - Licht kann in mehreren Moden (Wege) laufen.
+    - Licht kann in mehreren Modi (Wege) laufen.
     - Kurze Strecken (< 2 km), günstigere Komponenten.
 
 ![[Multimode LWL.png]]
