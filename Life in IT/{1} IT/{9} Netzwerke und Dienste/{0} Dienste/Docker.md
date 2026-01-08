@@ -18,6 +18,7 @@ Startet einen bereits existierenden Docker
 docker start Container-Name
 ```
 ## Docker Volume
+Erstellt ein Volume also einen Speicherort für die Daten eines Containers
 ```sh 
 docker volume create Volume-Name
 ```
