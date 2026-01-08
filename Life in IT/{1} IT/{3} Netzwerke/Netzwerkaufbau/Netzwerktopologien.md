@@ -37,7 +37,7 @@
 - Lokale Netzwerke (LANs) - z.B. kleine Büros oder Campus-Netzwerke
 - Verbindung von mehreren Gebäuden
 
-## Vermaschte-Topologie(Partial- Mesh Topology)
+## Vermaschte-Topologie(Partial-Mesh Topology)
 - Manche Geräte sind indirekt miteinander verbunden
 - **Hohe Redundanz (Ausfallsicherheit)**
 ![[Netzwerktopologie_vermascht.png|400]]
@@ -45,7 +45,7 @@
 ### Verwendung
 - **Backbone-Netzwerke**
 - **Kritische Infrastrukturen**
-- **SMART- City, Iot-Geräte**
+- **SMART-City, Iot-Geräte**
 - **Militärische und taktische Netzwerke**
 - **Telekommunikation (bsp. Internet Sevice Providers)**
 ## Vollvermaschte-Topologie (Full-Mesh Topology)
@@ -53,7 +53,7 @@
 - Jedes Gerät ist mit jedem Gerät verbunden
 ![[netztopologie-vollvermascht.png|600]]
 ### Verwendung
-- - **Rechenzentren (Data Centers)** – besonders im Core-Bereich für maximale Ausfallsicherheit
+- **Rechenzentren (Data Centers)** – besonders im Core-Bereich für maximale Ausfallsicherheit
 - **WAN-Verbindungen zwischen Unternehmensstandorten** – für unternehmenskritische Kommunikation
 - **Finanzinstitute / Börsenhandel** – geringe Latenz, hohe Zuverlässigkeit
 - **Militärische und sicherheitskritische Netzwerke** – unterbrechungsfreie Kommunikation
