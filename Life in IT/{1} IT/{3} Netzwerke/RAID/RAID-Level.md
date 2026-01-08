@@ -17,10 +17,13 @@ Paritäten
 
 # RAID-Kombinationen
 
-## RAID 10 / 01
+## RAID 10 / RAID 01
+
+Kombination aus RAID 0 und RAID 5, in unterschiedlicher Reihenfolge
 
 ## RAID 15 / RAID 51
 
+Kombination aus RAID 1 und RAID 5, in unterschiedlicher Reihenfolge
 
 
 ## RAID 
