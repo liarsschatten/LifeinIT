@@ -38,7 +38,7 @@
 ## Manage
 
 Hier fügt man neue Features hinzu. Beispielsweise:
-- [[Hyper V]]
+- [[Hyper-V]]
 - [[Domain Controller]]
 - [[Administrative Domain und User Services]]
 ## Tools
