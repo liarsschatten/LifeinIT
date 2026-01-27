@@ -22,7 +22,7 @@ Die gesetzlichen Kündigungsfristen variieren, je nach Situation und Kündigungs
 #### Arbeitgeber kündigt Arbeitnehmer
 - In der Probezeit sind es **mindestens** zwei Wochen Frist.
 - danach **mindestens** 4 Wochen, zum 15. eines Monats oder Monatsende.
-Wenn der Zeitraum der Betriebszugehörigkeit ein gewisses Ausmaß erreicht hat und der Betrieb mehr als 10 Mitarbeiter, erhöhen sich die Fristen wie folgt.
+Wenn der Zeitraum der Betriebszugehörigkeit ein gewisses Ausmaß erreicht hat (6 Monate) und der Betrieb mehr als 10 Mitarbeiter, erhöhen sich die Fristen wie folgt.
 
 | Betriebszugehörigkeit | Kündigungsfrist         |
 | --------------------- | ----------------------- |

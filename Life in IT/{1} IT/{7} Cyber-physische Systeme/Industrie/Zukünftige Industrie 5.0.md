@@ -1,0 +1,2 @@
+# KI und Mensch
+Die Zusammenarbeit zwischen Mensch und Maschine wird Symbiotisch. Die Maschinerie wird Personalisiert und durch KI intelligent wodurch auch unvorhergesehene Situationen gelöst werden können.
