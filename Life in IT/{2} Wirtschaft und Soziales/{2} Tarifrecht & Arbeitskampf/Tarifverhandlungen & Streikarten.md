@@ -31,4 +31,4 @@ Eine Betriebsblockade ist eine Maßnahme, bei der die Zufahrt und Abfahrt zum od
 i.d.R. rechtswidrig, da zu Mitteln gegriffen wird wie das Abstellen von sperrigen Gegenständen vor Eingängen, daher nicht vom Streikrecht gedeckt.
 
 ## Aussperrung
-Kampfmaßnahme der Arbeitgeber. Beschreibt die vorübergehende Aufhebung der Arbeitsverhältnisse aller Arbeitnehmer. Hier gilt der Grundsatz der Verhältnismäßigkeit.
+Kampfmaßnahme der Arbeitgeber. Beschreibt die vorübergehende **Ausschließung der Arbeitnehmer von der Arbeit** durch den Arbeitgeber im Rahmen eines Arbeitskampfes. Die Arbeitnehmer dürfen währenddessen nicht arbeiten und erhalten **grundsätzlich kein Arbeitsentgelt**. Hier gilt der Grundsatz der Verhältnismäßigkeit.

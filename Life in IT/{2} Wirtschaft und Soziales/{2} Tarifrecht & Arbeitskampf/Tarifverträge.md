@@ -8,7 +8,7 @@ Gültige Vertragspartner sind:
 
 # Tarif Vertragsarten
 ## Branchentarifverträge
-Diese Tarifverträge gelten für einen bestimmten Bereich z.B. ganz Brandenburg oder in ganzen Branchen z.B. in der gesamten Elektronik Branche. Der Branchen Vertrag gilt möglicherweise für mehrere Branchen auf einmal. 
+Diese Tarifverträge gelten für einen bestimmten Bereich z.B. ganz Brandenburg oder in ganzen Branchen z.B. in der gesamten Elektronik Branche. Der Branchenvertrag kann auch für mehrere Branchen auf einmal gelten.
 ## Lohntarifverträge
 Diese Tarifverträge gelten i.d.R. ein Jahr und regeln hauptsächlich die Höhe des Entgelts (Lohn, Gehalt, Ausbildungsvergütung).
 ## Rahmentarifverträge

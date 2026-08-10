@@ -12,4 +12,3 @@ Die Forderungen sind aus Anwendersicht einschließlich aller Randbedingungen zu 
 - Technische Anforderungen
 - Zielgruppe heißt wer das Projekt benutzt
 - Kann und Muss des Auftrags
-- 

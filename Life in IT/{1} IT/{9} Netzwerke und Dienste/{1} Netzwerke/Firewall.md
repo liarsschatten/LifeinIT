@@ -8,7 +8,7 @@ Der Paketfilter ist die simpelste Form der Firewall. Er blockiert alles und läs
 
 ---
 # Stateful Packet Inspection
-Öffnet alle Pakete bis Schicht 5, er erstellt eine **Verbindungstabelle**, die eine Anfrage von innen speichert und sie nach außen durchlässt, sie öffnet dann den dazugehörigen Port nach innen für die Antwort.
+Öffnet alle Pakete bis Schicht 5, erstellt eine **Verbindungstabelle**, die eine Anfrage von innen speichert und sie nach außen durchlässt, sie öffnet dann den dazugehörigen Port nach innen für die Antwort.
 Dabei wird grundsätzlich alles geblockt und nur durchgelassen, was in der
 **Verbindungstabelle** steht. 
 
@@ -41,5 +41,5 @@ Die DMZ beschreibt eine Zone, die vom lokalen Netzwerk getrennt ist. Dort stehen
 
 Die DMZ ist ein eigenes Subnetz
 
-Diese Server sind vom Rest des Netzwerkes getrennt, damit Angriffe nicht den Rest des Netzwerkes betreffen können.
+Diese Server sind vom Rest des Netzwerkes getrennt, damit Angriffe schwerer den Rest des Netzwerkes betreffen können.
 Die DMZ kann in verschiedenen Arten vom eigenen Netzwerk getrennt sein.
