@@ -1,6 +1,6 @@
 #Firewall 
 # Allgemeines
-Eine Firewall ist ein Mittel zur Überprüfung von Paketen, welche nach OSI-Standard versendet werden. Die verschiedenen Firewall-Typen arbeiten auf verschiedenen Schichten des ISO/OSI Modells und sind daher in der Lage, entweder mehr oder weniger Informationen zu überprüfen. Prinzipiell zu verstehen ist: je gründlicher, desto Leistungsaufwändiger ist es.
+Eine Firewall ist ein Mittel zur Überprüfung von Paketen, welche nach OSI-Standard versendet werden. Die verschiedenen Firewall-Typen arbeiten auf verschiedenen Schichten des ISO/OSI Modells und sind daher in der Lage, entweder mehr oder weniger Informationen zu überprüfen. Prinzipiell zu verstehen ist: je gründlicher, desto leistungsaufwändiger ist es.
 
 ---
 # Paketfilter
@@ -25,13 +25,22 @@ Diese Kombination sorgt für eine Entlastung des ALGs, weil falsch adressierte P
 ---
 # Hochverfügbarkeit
 ## Einführung
-Ausfallsicherheit ist ein wichtiges Thema in der IT-Infrastruktur.
-Es geht dabei darum, sicherzustellen, dass wichtige Infrastruktur keine Totalausfälle hat.
-Es wird auch Redundanz genannt.
+**Hochverfügbarkeit** bezeichnet das Ziel, wichtige IT-Systeme und -Dienste auch bei Ausfällen möglichst ohne oder nur mit kurzer Unterbrechung bereitzustellen. Durch präventive Maßnahmen wie **Redundanz**, Überwachung und automatisches Umschalten auf Ersatzsysteme wird die Wahrscheinlichkeit und insbesondere die Dauer von Ausfällen reduziert.
 ## Passive Redundanz
-Bedeutet, dass ein Ersatz bereitsteht, um zu übernehmen, wenn der erste ausfällt
+Bei **passiver Redundanz** steht ein Ersatzsystem bereit, das bei einem Ausfall des aktiven Systems dessen Aufgaben übernimmt. Das Ersatzsystem arbeitet im Normalbetrieb nicht aktiv mit.
+Je nach Bereitschaft des Ersatzsystems unterscheidet man:
+
+- **Cold Standby:** Ersatzsystem ist ausgeschaltet und muss im Fehlerfall erst gestartet bzw. eingerichtet werden.
+- **Warm Standby:** Ersatzsystem läuft bereits, ist aber noch nicht vollständig betriebsbereit.
+- **Hot Standby:** Ersatzsystem ist vollständig betriebsbereit und kann nahezu sofort übernehmen.
+
+Die Umschaltung kann manuell oder automatisch erfolgen. Typisch ist beispielsweise ein **Standby-Server**, der bei einem Ausfall des produktiven Servers dessen Dienste übernimmt.
 ## Aktive Redundanz
-Bei aktiver Redundanz wird ein Load Balancer davor geschaltet und verteilt die Last auf mehrere Einheiten
+Bei **aktiver Redundanz** arbeiten mehrere Systeme gleichzeitig und übernehmen gemeinsam die Aufgaben. Fällt eine Einheit aus, übernehmen die verbleibenden Systeme deren Last.
+
+Eine typische Umsetzung ist **Load Balancing**: Ein Load Balancer verteilt Anfragen auf mehrere Server und nimmt ausgefallene Server automatisch aus der Verteilung.
+
+Aktive Redundanz wird vor allem bei **hochverfügbaren Diensten und Server-Infrastrukturen** eingesetzt.
 
 ---
 # DMZ
@@ -43,3 +52,7 @@ Die DMZ ist ein eigenes Subnetz
 
 Diese Server sind vom Rest des Netzwerkes getrennt, damit Angriffe schwerer den Rest des Netzwerkes betreffen können.
 Die DMZ kann in verschiedenen Arten vom eigenen Netzwerk getrennt sein.
+
+
+
+

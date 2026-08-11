@@ -16,7 +16,7 @@
 	6. Neustarten auswählen
 
 ---
-# Initial Konfiguration
+# Initial–Configuration
 1. Tastatur Layout einstellen
 2. Zeitzone angeben
 3. Hostname einstellen
@@ -25,7 +25,7 @@
 6. Webadmin Passwort festlegen 
 
 ---
-# Netzwerk Konfiguration einstellen
+# Netzwerk-Konfiguration einstellen
 1. Typ der Netzwerk Konfiguration = GREEN RED ORANGE
 2. Netzwerkkartenzuordnung: hier muss man die Typen von eben den Netzwerk Adaptern zuordnen
 3. Adresseinstellungen: hier muss man die Internen IP-Adressen einstellen für die separaten Netzwerke (die Netzadapter sind quasi der Switch in der Virtuellen Umgebung) 
