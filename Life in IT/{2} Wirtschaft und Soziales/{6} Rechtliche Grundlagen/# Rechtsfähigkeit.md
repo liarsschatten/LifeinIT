@@ -1,3 +1,4 @@
+## **Definition Rechtsfähigkeit**
 - Die Rechtsfähigkeit bedeutet, dass jemand Träger von Rechten und Pflichten ist
 ## Wer ist rechtsfähig?
 ### **Lebende Menschen = Natürliche Personen:**
