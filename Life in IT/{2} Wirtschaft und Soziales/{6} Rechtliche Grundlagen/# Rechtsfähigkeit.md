@@ -1,6 +1,6 @@
 ## **Definition Rechtsfähigkeit**
 - Die Rechtsfähigkeit bedeutet, dass jemand Träger von Rechten und Pflichten ist
-## Wer ist rechtsfähig?
+## **Wer ist rechtsfähig?**
 ### **Lebende Menschen = Natürliche Personen:**
 - Jeder Mensch ist rechtsfähig
 - Die Rechtsfähigkeit beginnt mit der Vollendung der Geburt (§ 1 BGB) und endet mit dem Tod
