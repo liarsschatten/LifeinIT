@@ -14,7 +14,6 @@
 - Zum Beispiel Bund, Bundesländer, Gemeinden und Handwerkskammern
 - Sie werden durch staatliche Verleihung rechtsfähig
 ## **Zusammenfassung: Rechtsfähigkeit**
-
 | **Art**                                          | **Erklärung**                                                    | **Beispiele**                             |
 | ------------------------------------------------ | ---------------------------------------------------------------- | ----------------------------------------- |
 | **Natürliche Personen**                          | Jeder Mensch ist ab der Geburt bis zum Tod rechtsfähig           | Alle Menschen                             |
