@@ -5,9 +5,9 @@
 - Die Angebot und Nachfrage bestimmt den Preis
 - Kein staatlicher Eingriff in die Marktwirtschaft
 
-| Vorteile | Nachteile|
-| :------- | :--------|
-| hohe Produktauswahl | finanzielle Ungleichheit |
+| Vorteile                                  | Nachteile                           |
+| :---------------------------------------- | :---------------------------------- |
+| hohe Produktauswahl                       | finanzielle Ungleichheit            |
 | Gewinnmaximierung möglich für Unternehmen | erhöhte Gefahr auf Arbeitslosigkeit |
 
 ## **Zentralverwaltungswirtschaft**
