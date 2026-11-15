@@ -12,10 +12,10 @@
 - Sie werden durch die Eintragung in ein öffentliches Register rechtsfähig
 #### **Juristische Person des öffentlichen Rechts**
 - Zum Beispiel Bund, Bundesländer, Gemeinden und Handwerkskammern
-- Sie werden durch staatliche Verleihung rechtsfähig
+- werden durch staatliche Genehmigung rechtsfähig
 ## **Zusammenfassung: Rechtsfähigkeit**
 | **Art**                                          | **Erklärung**                                                    | **Beispiele**                             |
 | ------------------------------------------------ | ---------------------------------------------------------------- | ----------------------------------------- |
 | **Natürliche Personen**                          | Jeder Mensch ist ab der Geburt bis zum Tod rechtsfähig           | Alle Menschen                             |
 | **Juristische Personen des Privatrechts**        | Werden durch Eintragung in ein öffentliches Register rechtsfähig | GmbH, AG, e. V.                           |
-| **Juristische Personen des öffentlichen Rechts** | Werden durch staatliche Verleihung rechtsfähig                   | Bund, Länder, Gemeinden, Handwerkskammern |
+| **Juristische Personen des öffentlichen Rechts** | werden durch staatliche Genehmigung rechtsfähig                  | Bund, Länder, Gemeinden, Handwerkskammern |
