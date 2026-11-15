@@ -14,7 +14,6 @@
 ### Erklärung:
 - Vollständiger staatlicher Eingriff in die Marktwirtschaft
 - wird auch Planwirtschaft genannt
-- Unternehmen gehören meistens dem Staat 
 ### Eigenschaften:
 - Staat legt Preise und Löhne fest
 - Staat bestimmt Produktionsart & Produktionsmenge
