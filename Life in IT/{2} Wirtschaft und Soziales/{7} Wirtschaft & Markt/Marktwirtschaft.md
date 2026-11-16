@@ -5,7 +5,7 @@
 - Die Angebot und Nachfrage bestimmt den Preis
 - Kein staatlicher Eingriff in die Marktwirtschaft
 
-| Vorteile                                  | Nachteile                           |
+| **Vorteile**                              | **Nachteile**                       |
 | :---------------------------------------- | :---------------------------------- |
 | hohe Produktauswahl                       | finanzielle Ungleichheit            |
 | Gewinnmaximierung möglich für Unternehmen | erhöhte Gefahr auf Arbeitslosigkeit |
@@ -18,7 +18,20 @@
 - Staat legt Preise und Löhne fest
 - Staat bestimmt Produktionsart & Produktionsmenge
 
-| Vorteile                        | Nachteile         |
-| ------------------------------- | ----------------- |
-| Gute Planbarkeit der Wirtschaft | Warenmangel       |
-| Allgemeine Versorgung           | Lange Wartezeiten |
+| **Vorteile**                      | **Nachteile** |
+| --------------------------------- | ------------- |
+| Keine Arbeitslosigkeit            | Warenmangel   |
+| gleichmäßige Ressourcenverteilung | Fehlplanung   |
+
+## **Soziale Marktwirtschaft**
+### Erklärung:
+- freie Marktwirtschaft mit staatlichen Schutz für wirtschaftlich Schwächere
+### **Eigenschaften:**
+- Angebot und Nachfrage bestimmt Preis
+- Der Staat sorgt für soziale Sicherheit
+	- soziale Sicherheit (Mindestlohn und Versicherungen)
+
+| **Vorteile**                          | **Nachteile** |
+| ------------------------------------- | ------------- |
+| soziale Sicherheit                    | hohe Steuern  |
+| Schutz der wirtschaftlich Schwächeren | hohe Kosten   |
