@@ -35,3 +35,6 @@
 | ------------------------------------- | ------------- |
 | soziale Sicherheit                    | hohe Steuern  |
 | Schutz der wirtschaftlich Schwächeren | hohe Kosten   |
+
+## soziale Sicherheit Maßnahmen
+[[Maßnahmen sozialen Marktwirtschaft]]
