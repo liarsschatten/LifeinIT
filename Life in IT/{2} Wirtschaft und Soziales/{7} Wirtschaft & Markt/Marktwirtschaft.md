@@ -5,10 +5,10 @@
 - Die Angebot und Nachfrage bestimmt den Preis
 - Kein staatlicher Eingriff in die Marktwirtschaft
 
-| **Vorteile**                              | **Nachteile**                       |
-| :---------------------------------------- | :---------------------------------- |
-| hohe Produktauswahl                       | finanzielle Ungleichheit            |
-| Gewinnmaximierung möglich für Unternehmen | erhöhte Gefahr auf Arbeitslosigkeit |
+| **Vorteile**        | **Nachteile**        |
+| :------------------ | :------------------- |
+| hohe Produktauswahl | soziale Ungleichheit |
+| Wettbewerb          | Arbeitslosigkeit     |
 
 ## **Zentralverwaltungswirtschaft**
 ### Erklärung:
@@ -18,10 +18,10 @@
 - Staat legt Preise und Löhne fest
 - Staat bestimmt Produktionsart & Produktionsmenge
 
-| **Vorteile**                      | **Nachteile** |
-| --------------------------------- | ------------- |
-| Keine Arbeitslosigkeit            | Warenmangel   |
-| gleichmäßige Ressourcenverteilung | Fehlplanung   |
+| **Vorteile**                 | **Nachteile**          |
+| ---------------------------- | ---------------------- |
+| geringe soziale Ungleichheit | Warenmangel            |
+| Arbeitsplatzsicherheit       | geringe Produktauswahl |
 
 ## **Soziale Marktwirtschaft**
 ### Erklärung:
