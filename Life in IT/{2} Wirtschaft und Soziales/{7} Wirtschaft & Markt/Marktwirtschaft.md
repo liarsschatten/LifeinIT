@@ -36,6 +36,8 @@
 | soziale Sicherheit                    | hohe Steuern  |
 | Schutz der wirtschaftlich Schwächeren | hohe Kosten   |
 
+## **staatlicher Eingriff in soziale Marktwirtschaft:**
+[[staatlicher Eingriff in soziale Marktwirtschaft]]
 ## soziale Sicherheit Maßnahmen:
 [[Maßnahmen sozialen Marktwirtschaft]]
 

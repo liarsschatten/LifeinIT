@@ -1,0 +1,19 @@
+## Eingriffsarten:
+- **Sozialpolitik:**
+	- Ziel:
+		- soziale Ungleichheit verringern
+- **Konjunkturpolitik:**
+	- Ziel:
+		- Wirtschaft stabilisieren
+- **Strukturpolitik:**
+	- Ziel:
+		- schwächere Wirtschaftssektoren unterstützen
+- **Einkommenspolitik:**
+	- Ziel:
+		- gerechte Einkommensverteilung
+- **öffentliche Unternehmen:**
+	- Ziel:
+		- Versorgung der Bevölkerung sicherstellen 
+- **Wettbewerbspolitik:**
+	- Ziel:
+		- Verhinderung von Kartellbildung
