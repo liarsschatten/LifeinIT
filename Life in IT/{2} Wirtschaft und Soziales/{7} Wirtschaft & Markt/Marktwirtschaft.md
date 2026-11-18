@@ -36,5 +36,8 @@
 | soziale Sicherheit                    | hohe Steuern  |
 | Schutz der wirtschaftlich Schwächeren | hohe Kosten   |
 
-## soziale Sicherheit Maßnahmen
+## soziale Sicherheit Maßnahmen:
 [[Maßnahmen sozialen Marktwirtschaft]]
+
+## **BIP (Bruttoinlandsprodukt):**
+[[BIP (Bruttoinlandsprodukt)]]
