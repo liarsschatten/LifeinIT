@@ -37,4 +37,4 @@
 | Schutz der wirtschaftlich Schwächeren | hohe Kosten   |
 
 ## soziale Sicherheit Maßnahmen
-[[Life in IT/{2} Wirtschaft und Soziales/{7} Wirtschaft & Markt/# Maßnahmen sozialen Marktwirtschaft]]
+[[Maßnahmen sozialen Marktwirtschaft]]
