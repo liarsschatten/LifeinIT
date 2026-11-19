@@ -40,6 +40,5 @@
 [[staatlicher Eingriff in soziale Marktwirtschaft]]
 ## soziale Sicherheit Maßnahmen:
 [[Maßnahmen sozialen Marktwirtschaft]]
-
 ## **BIP (Bruttoinlandsprodukt):**
 [[BIP (Bruttoinlandsprodukt)]]
