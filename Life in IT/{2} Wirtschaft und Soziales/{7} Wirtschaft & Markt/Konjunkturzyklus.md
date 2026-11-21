@@ -1,0 +1,15 @@
+- beschreibt eine wellenförmige Ab und Aufschwungsbewegung der Wirtschaftstätigkeiten
+## Konjunkturzyklus Phasen:
+- ### **Abschwung (Rezession):**
+	- sinkender BIP
+	- sinkende Kaufbereitschaft
+		- sinkende Produktion und Nachfrage
+	- steigende Arbeitslosenquote
+- ### **Tiefstand (Depression):**
+	- geringe Produktion und Nachfrage 
+	- hohe Arbeitslosenquote
+	- BIP niedrigster Stand
+- ### **Aufschwung (Expansion):**
+	- 
+- ### **Hochkonjunktur (Boom):**
+	- 

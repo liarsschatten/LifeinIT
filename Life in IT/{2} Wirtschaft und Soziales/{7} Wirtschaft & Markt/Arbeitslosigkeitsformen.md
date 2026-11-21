@@ -7,7 +7,7 @@
 		- z.B. jemand kündigt bzw. wird gekündigt und sucht einen neuem Arbeitsplatz
 - ### **Strukturelle Arbeitslosigkeit:**
 	- Entsteht, wenn Fähigkeiten nicht zum Arbeitsplätzen passen
-		- z. B. Maschinen ersetzen Arbeitskräfte
+		- z. B. Digitalisierung, Automatisierung
 ## **Konjunkturelle Arbeitslosigkeit:**
 - Entsteht durch eine schlechte Wirtschaftslage
 	- z. B. Unternehmen haben weniger Aufträge und entlassen Mitarbeiter
