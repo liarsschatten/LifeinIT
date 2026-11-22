@@ -1,5 +1,5 @@
-Ein BIP-Wert kann getrennt auf drei unterschiedliche Arten berechnet werden.
-Sie können miteinander verglichen werden, da sie unterschiedliche Perspektiven auf dieselbe Leistung zeigen.
+Ein BIP-Wert kann getrennt auf drei unterschiedliche Arten berechnet werden
+Sie können miteinander verglichen werden, da sie unterschiedliche Perspektiven auf dieselbe Leistung zeigen
 ## **Entstehungsrechnung:**
 - ### **Erklärung:**
 	- zeigt an, in welchen Wirtschaftsbereichen das BIP entsteht
