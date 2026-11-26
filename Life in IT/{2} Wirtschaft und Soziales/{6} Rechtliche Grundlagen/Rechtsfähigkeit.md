@@ -14,8 +14,8 @@
 - Zum Beispiel Bund, Bundesländer, Gemeinden und Handwerkskammern
 - werden durch staatliche Genehmigung rechtsfähig
 ## **Zusammenfassung: Rechtsfähigkeit**
-| **Art**                                          | **Erklärung**                                                    | **Beispiele**                             |
-| ------------------------------------------------ | ---------------------------------------------------------------- | ----------------------------------------- |
-| **Natürliche Personen**                          | Jeder Mensch ist ab der Geburt bis zum Tod rechtsfähig           | Alle Menschen                             |
-| **Juristische Personen des Privatrechts**        | Werden durch Eintragung in ein öffentliches Register rechtsfähig | GmbH, AG, e. V.                           |
-| **Juristische Personen des öffentlichen Rechts** | werden durch staatliche Genehmigung rechtsfähig                  | Bund, Länder, Gemeinden, Handwerkskammern |
+| **Art**                                      | **Erklärung**                                                    | **Beispiele**                             |
+| -------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------- |
+| Natürliche Personen                          | Jeder Mensch ist ab der Geburt bis zum Tod rechtsfähig           | Alle Menschen                             |
+| Juristische Personen des Privatrechts        | Werden durch Eintragung in ein öffentliches Register rechtsfähig | GmbH, AG, e. V.                           |
+| Juristische Personen des öffentlichen Rechts | werden durch staatliche Genehmigung rechtsfähig                  | Bund, Länder, Gemeinden, Handwerkskammern |
